@@ -1,4 +1,4 @@
-# Nombre de módulo
+# Módulo: Java Testing
 
 ## :wave: Bienvenid@s
 
@@ -6,21 +6,33 @@ Dar la bienvenida al alumno describiendo el contexto general del módulo. (Borra
 
 ## :dart: Objetivo
 
-Describir el objetivo general del módulo **Obligatorio**. (Borrar está linea una vez se hay leido) 
+En este curso aprenderás obtednras una visión general de la disciplina de pruebas, 
+entendiendo la necesidad de las pruebas del software, los objetivos de las pruebas,
+así como su cantidad idonea y los conceptos fundamentas de la disciplina.
 
-## :gear: Requerimientos
+Te familiarizas con distintas herramientas como JUnit, TestNG, Mockito, SonarQube,entre otras.
 
-Describir los requerimientos en caso de que el módulo lo requiera **Obligatorio**. (Borrar está linea una vez se hay leido) 
+Comprenderas las diferencias entre los distintos tipos de pruebas como: unitarias, de integración , e2e, etc.
+
+Y por último conoceras y aplicaras una metodologia de desarrollo guiada por pruebas como lo es TDD (Test Driven Development)
+
 
 ## 💻 Proyecto
 
-Describir el proyecto en caso de que el módulo lo requiera **Obligatorio** .  (Borrar está linea una vez se hay leido)
+Durante el curso buscaremos simular las condiciones de trabajo de un proyecto real bajo metodologia Scrum,
+por ello trabajaremos en equipos de dos, fomentando practicas de agile como: pair programming, historias de usuario,
+poker planning , etc.
+
+El sistema a desarrollar sera una aplicación que le permita a la empresa ABC Technologies 
+automatizar su proceso de agendar entrevistas.
+
+## :gear: Requerimientos
+
+Consultar la sección de instalación del [Prework 01](https://docs.google.com/document/d/1Ef_JNE6lkb8nj9YtP3EKsdrt0jUSoFgQu8zueqXlEWc/edit?usp=sharing)
 
 ## :bookmark_tabs: Sesiones
-
-##### Describir el temario del módulo **Obligatorio** . (Borrar está linea una vez se hay leido) 
-
-- [`Sesión 01:` Nombre de la sesión 01](./Sesion-01)
+ 
+- [`Sesión 01:` Introduction to testing](./Sesion-01)
 - [`Sesión 02:` Nombre de la sesión 02](./Sesion-02)
 - [`Sesión 03:` Nombre de la sesión 03](./Sesion-03)
 - [`Sesión 04:` Nombre de la sesión 04](./Sesion-04)
