@@ -33,5 +33,5 @@ Podemos tomar esto como referencia: https://www.celerity.com/the-true-cost-of-a-
 [IVO pagina 22, 23 y 24]
 
 
-[Codigo: probar lo del reto 1]
+[Codigo: probar lo del reto 1, solo el flujo de altas]
 
