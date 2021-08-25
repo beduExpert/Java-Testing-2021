@@ -20,8 +20,7 @@ Agregar los objetivos de las sesión (Mínimo poner tres objetivos y Borrar est�
 Agregar los ejemplos y retos que va a requerir la sesión (Borrar está linea una vez se hay leido)
 
 - [Reto 01: Altas y consultas para entrevistadores](./Reto-01)
-
-- [Ejemplo 01:  Nombre del ejemplo](./Ejemplo-01/README.md)
+- [Ejemplo 01:  El costo de probar software](./Ejemplo-01)
     - [Reto 01: Nombre del reto 01](./Reto-01/README.md)
     - [Reto  02: Nombre del reto 02](./Reto-02/README.md)
 - [Ejemplo 02: Nombre del ejemplo 02](./Ejemplo-02/README.md)
