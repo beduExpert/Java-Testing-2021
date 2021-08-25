@@ -1,4 +1,7 @@
-# Reto # - Nombre del reto
+# Reto 2 - Probando nuestro software
+
+
+[IVO te puedes basar en el (reto 1)[https://github.com/nomarlo/testing/tree/main/Sesion-01/Reto-01] Redactar que con lo visto en el ejemplo 1 el alumno tiene que añadir las pruebas que considere necesarias a su codigo del reto 1 ]
 
 ## Objetivo
 
