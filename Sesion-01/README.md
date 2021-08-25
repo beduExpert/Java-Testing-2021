@@ -1,26 +1,25 @@
 
-# Sesión #: Nombre de la sesión
-
+# Sesión 01: Introduction to testing
 ## :dart: Objetivos
 
 Agregar los objetivos de las sesión (Mínimo poner tres objetivos y Borrar está linea una vez se hay leido )
 
-- Objetivo 1
-- Objetivo 2
-- Objetivo 3
+- Por qué y para qué probamos el software
+- ¿Qué es el testing en el ciclo de desarrollo de Software? 
+- ¿Qué tipos de pruebas existen? 
+- Técnicas básicas para el diseño de pruebas
+
 
 ## ⚙ Requisitos
 
-+ Agregar los requisitos de la sesión 
-+ Agregar el link de descarga en caso de ser necesario para la sesión (Borrar estás lineas una vez se hayan leido)
++ Consultar la sección de instalación del [Prework 01](https://docs.google.com/document/d/1Ef_JNE6lkb8nj9YtP3EKsdrt0jUSoFgQu8zueqXlEWc/edit?usp=sharing)
 
-## 🎩 Buenas prácticas
-
-Agregar buenas prácticas en caso de que la sesión lo requierea, de no ser así borrar está intrucción una vez se haya leido.
 
 ## 📂 Organización de la clase
 
 Agregar los ejemplos y retos que va a requerir la sesión (Borrar está linea una vez se hay leido)
+
+- [Reto 01: Altas y consultas para entrevistadores](./Reto-01)
 
 - [Ejemplo 01:  Nombre del ejemplo](./Ejemplo-01/README.md)
     - [Reto 01: Nombre del reto 01](./Reto-01/README.md)
