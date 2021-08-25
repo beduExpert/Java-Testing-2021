@@ -23,6 +23,7 @@ Agregar los ejemplos y retos que va a requerir la sesión (Borrar está linea un
 - [Ejemplo 01:  El costo de probar software](./Ejemplo-01)
     - [Reto 02: Probando nuestro sistema](./Reto-02)
 - [Ejemplo 02: Tipos de pruebas](./Ejemplo-02)
+- [Ejemplo 03: Integracion continua](./Ejemplo-03)
     - [Reto 03: Nombre del reto 03](./Reto-03/README.md)
 - [Postwork: Nombre del postwork](./Postwork/README.md)
 
