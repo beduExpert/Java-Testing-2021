@@ -1,3 +1,5 @@
+[IVO paginas de la 26 a la 32]
+
 # Ejemplo # - Nombre del ejemplo
 
 ## Objetivo
@@ -12,4 +14,6 @@
 >Si no es necesario, puedes borrar esta nota.
 
 Aquí se debe agregar el desarrollo del ejemplo
+
+[Codigo la prueba del caso de uso de consultas]
 
