@@ -2,7 +2,7 @@
 
 ## :wave: Bienvenid@s
 
-Dar la bienvenida al alumno describiendo el contexto general del módulo. (Borrar está linea una vez se hay leido. **Está información se basa en el alance que se encuentra en la ficaha técnica de cada módulo.**
+En este modulo nos adentraremos en las herramientas para realizar testing en software escrito con lenguaje Java. Tambien utilizareos distintas herramientas de analisis estatico de código.
 
 ## :dart: Objetivo
 
