@@ -1,4 +1,10 @@
-# Tipos de Pruebas de Software
+# Ejemplo #2 - Tipos de Pruebas de Software
+
+## Objetivo
+
+* Conocer los diferentes tipos de pruebas
+
+## Desarrollo
 
 Existen diferentes tipos de pruebas de software, en este documento se presentan los tipos según el SUT:
 - Aceptación
@@ -22,21 +28,6 @@ Se prueban grupos o partes del sistema que en conjunto hacen funcionar un compon
 ## Unitaria
 Se prueba una sola clase, objeto, o método. El objetivo es verificar las condiciones del diseño y documentar su comportamiento. Quienes realizan estas pruebas son los desarrolladores incolucrando al usuario.
 
-
-# Ejemplo # - Nombre del ejemplo
-
-## Objetivo
-
-* Agregar los objetivos del ejemplo (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
-
-## Desarrollo
-
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el ejemplo.
->Si no es necesario, puedes borrar esta nota.
-
-Aquí se debe agregar el desarrollo del ejemplo
 
 [Codigo la prueba del caso de uso de consultas]
 
