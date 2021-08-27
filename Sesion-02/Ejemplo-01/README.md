@@ -1,15 +1,12 @@
-# Ejemplo # - Nombre del ejemplo
+# Ejemplo #1 - Tipos de pruebas
 
-## Objetivo
 
-* Agregar los objetivos del ejemplo (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
 
 ## Desarrollo
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el ejemplo.
->Si no es necesario, puedes borrar esta nota.
+### Tipos de pruebas
 
-Aquí se debe agregar el desarrollo del ejemplo
+Existen diferentes tipos de tests, cuya principal diferencia radica en lo que buscan probar. Actualmente existen discrepancias acerca de los nombres que se les dan y los tipos que existen. Por ello y siguiendo a algunos autores los clasificaremos en tres grandes grupos: test unitarios (unit tests), test de integración (integration tests) y test punta a punta (E2E por su nombre en Ingles End to End)
+
+
 
