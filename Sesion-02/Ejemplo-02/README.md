@@ -19,3 +19,17 @@ Para que una prueba unitaria tenga la calidad suficiente se deben cumplir los si
 - Profesionales: Las pruebas deben ser consideradas igual que el código, con la misma
 profesionalidad, documentación, etc.
 
+
+### Las 3 A’s del unit testing
+
+Para llevar a cabo buenas pruebas unitarias, deben estar estructuradas siguiendo las tres A’s del Unit
+Testing. Se trata de un concepto fundamental respecto a este tipo de pruebas, que describe un proceso
+compuesto de tres pasos.
+
+- Arrange (organizar). Es el primer paso de las pruebas unitarias. En esta parte se definen los
+requisitos que debe cumplir el código.
+- Act (actuar). Es el paso intermedio de las pruebas, el momento de ejecutar el test que dará
+lugar a los resultados que deberás analizar.
+- Assert (verificar). En el último paso, es el momento de comprobar si los resultados obtenidos
+son los que se esperaban. Si es así, se valida y se sigue adelante. Si no, se corrige el error hasta
+que desaparezca.
