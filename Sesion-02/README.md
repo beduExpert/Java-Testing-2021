@@ -1,28 +1,19 @@
 
-# Sesión #: Nombre de la sesión
+# Sesión #2: Unit Testing in Java
 
 ## :dart: Objetivos
 
-Agregar los objetivos de las sesión (Mínimo poner tres objetivos y Borrar está linea una vez se hay leido )
+Agregar los objetivos de las sesión
 
-- Objetivo 1
-- Objetivo 2
-- Objetivo 3
+- Entender la importancia de escribir pruebas que garanticen el correcto funcionamiento de un método, por muy simple que sea
+- Conocer y aplicar las técnicas, recomendaciones y buenas prácticas para escribir pruebas unitarias.
 
-## ⚙ Requisitos
-
-+ Agregar los requisitos de la sesión 
-+ Agregar el link de descarga en caso de ser necesario para la sesión (Borrar estás lineas una vez se hayan leido)
-
-## 🎩 Buenas prácticas
-
-Agregar buenas prácticas en caso de que la sesión lo requierea, de no ser así borrar está intrucción una vez se haya leido.
 
 ## 📂 Organización de la clase
 
 Agregar los ejemplos y retos que va a requerir la sesión (Borrar está linea una vez se hay leido)
 
-- [Ejemplo 01:  Nombre del ejemplo](./Ejemplo-01/README.md)
+- [Ejemplo 01:  Tipos de pruebas](./Ejemplo-01)
     - [Reto 01: Nombre del reto 01](./Reto-01/README.md)
     - [Reto  02: Nombre del reto 02](./Reto-02/README.md)
 - [Ejemplo 02: Nombre del ejemplo 02](./Ejemplo-02/README.md)
