@@ -24,7 +24,7 @@ El project manager ha definido como objetivo para este sprint implementar un sis
 ### Instrucciones:
 
 - Crear un repositorio en la cuenta de github de cualquiera de los integrantes y añadir a los demás como colaboradores.
-- Utilizando Code with me o Visual Studio Live Share trabajar en los requerimientos dados
+- Utilizando Code with me o Visual Studio Live Share trabajar de forma colaborativa en los requerimientos dados
 - Hacer push de sus cambios a su repositorio
 - Todos los integrantes del equipo deben clonar el repositorio en su computadora
 
