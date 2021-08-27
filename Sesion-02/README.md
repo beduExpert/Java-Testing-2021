@@ -16,9 +16,8 @@ Agregar los ejemplos y retos que va a requerir la sesión (Borrar está linea un
 - [Ejemplo 01: Tipos de pruebas](./Ejemplo-01)
 - [Ejemplo 02: Pruebas unitarias](./Ejemplo-02)
     - [Reto 01: Bajas de entrevistadores](./Reto-01)
-    - [Reto  02: Nombre del reto 02](./Reto-02/README.md)
 - [Ejemplo 03: Pruebas unitarias](./Ejemplo-02)
-    - [Reto 03: Nombre del reto 03](./Reto-03/README.md)
+    - [Reto  02: Cambios en los entrevistadores](./Reto-02)
 - [Postwork: Nombre del postwork](./Postwork/README.md)
 
 
