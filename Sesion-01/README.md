@@ -2,8 +2,6 @@
 # Sesión 01: Introduction to testing
 ## :dart: Objetivos
 
-Agregar los objetivos de las sesión (Mínimo poner tres objetivos y Borrar está linea una vez se hay leido )
-
 - Por qué y para qué probamos el software
 - ¿Qué es el testing en el ciclo de desarrollo de Software? 
 - ¿Qué tipos de pruebas existen? 
