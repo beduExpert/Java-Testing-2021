@@ -33,7 +33,7 @@ Consultar la sección de instalación del [Prework 01](https://docs.google.com/d
 ## :bookmark_tabs: Sesiones
  
 - [`Sesión 01:` Introduction to testing](./Sesion-01)
-- [`Sesión 02:` Nombre de la sesión 02](./Sesion-02)
+- [`Sesión 02:` Unit Testing in Java](./Sesion-02)
 - [`Sesión 03:` Nombre de la sesión 03](./Sesion-03)
 - [`Sesión 04:` Nombre de la sesión 04](./Sesion-04)
 - [`Sesión 05:` Nombre de la sesión 05](./Sesion-05)
