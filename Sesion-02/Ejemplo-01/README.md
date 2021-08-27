@@ -11,7 +11,7 @@ Existen diferentes tipos de tests, cuya principal diferencia radica en lo que bu
 ![testing pyramid](https://github.com/nomarlo/testing/blob/main/Sesion-02/Ejemplo-01/assets/testing%20pyramif.png)
 
 
-#### Pruebas unitarioq
+#### Pruebas unitarias
 
 Las pruebas unitarias consisten en aislar una parte del código (una función, método o clase) y comprobar que funciona correctamente. Son pequeños tests que validan el comportamiento de un objeto y la lógica.
 El unit testing suele realizarse durante la fase de desarrollo de aplicaciones de software o móviles. Normalmente las llevan a cabo los desarrolladores
