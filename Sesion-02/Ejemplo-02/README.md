@@ -1,15 +1,21 @@
-# Ejemplo # - Nombre del ejemplo
+# Ejemplo #2 - Pruebas Unitarias
 
-## Objetivo
-
-* Agregar los objetivos del ejemplo (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
 
 ## Desarrollo
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el ejemplo.
->Si no es necesario, puedes borrar esta nota.
+### Pruebas unitarias
 
-Aquí se debe agregar el desarrollo del ejemplo
+Las pruebas unitarias consisten en aislar una parte del código (una función, método o clase) y
+comprobar que funciona correctamente. Son pequeños tests que validan el comportamiento de un
+objeto y la lógica.
+
+#### Características
+Para que una prueba unitaria tenga la calidad suficiente se deben cumplir los siguientes requisitos:
+
+- Automatizable: No debería requerirse una intervención manual.
+- Completas: Deben cubrir la mayor cantidad de código.
+- Repetibles: No se deben crear pruebas que sólo puedan ser ejecutadas una sola vez.
+- Independientes: La ejecución de una prueba no debe afectar a la ejecución de otra.
+- Profesionales: Las pruebas deben ser consideradas igual que el código, con la misma
+profesionalidad, documentación, etc.
 
