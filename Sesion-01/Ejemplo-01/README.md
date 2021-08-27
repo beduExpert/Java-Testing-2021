@@ -13,24 +13,55 @@
 
 ### El costo de probar software
 
-[IVO, aqui si hay que poner el contenido aqui, no podemos poner solo el link] *La idea es ejemplificar cómo el “yo no pruebo mi software” no existe y dicho costo se paga en alguna etapa*
+La importancia de probar el software y corregir los bugs en un proyecto vas más de una compilación correcta, si no que puede llegar a costar mucho dinero si no se hace en el momento adecuado. Por ejemplo, digamos que una empresa no logró detectar y corregir un bug en la etapa de desarrollo, se saltaron la etapa de pruebas por cuestiones de tiempo — o incluso para ahorrarse dinero — y se lanzó una aplicación web a producción; algunos usuarios comienzan a reportar errores y se tiene que detener el servicio. La empresa tiene que dedicar recursos para revisar el código, encontrar el bug y trabajar en él, costando hasta **100 veces** más de lo que puedo haber costado en una etapa temprana.
+¿Por qué puede llegar a costar tanto?
+Porque el regresar a corregir un error puede desencadenar que otras secciones del cógido se hayan visto afectados por éste, o includo por el cambio, desencadenando una *avalancha* de revisiones y posibles nuevos cambios.
 
-Podemos tomar esto como referencia: https://www.celerity.com/the-true-cost-of-a-software-bug 
+Un estudio realizado por el Instituto de Nacional de Estándares de Tecnología de Estados Unidos, muestra que si un error es encontrado y corregido en la etapa de toma de requerimientos, puede costar unos 100 USD, si es encontrado en la etapa de pruebas, 1,500 UDS y si es encontrado en producción, 10,000 USD.
 
-
+Es por esto que no debemos saltarnos el proceso de probar el software, debemos considerarlo nuestra obligación al desarrollar un proyecto de software. Con ésto nos estaremos ahorrando tiempo y lo que podría llegar a ser mucho dinero.
 
 ### Eficencia y eficacia
 
-[IVO pagina 18]
+Las pruebas, así como muchas otras cosas medibles en nuestro entorno, también adaptan la eficacia y eficiencia a las necesidades del ciclo de vida del software. Aquí se presentan las definiciones de ambos términos para pruebas de software:
+
+- **Eficacia:** Produce un resultados deseado. Las pruebas deben ser correctamente ejecutadas y con las siguientes características:
+  - Ejecutarlas tan rápidamente como sea posible.
+  - Tratar de descubrir los errores tempranamente.
+  - Encontrar los errores de mayor importancia antes que los de menos importancia.
+- **Eficiencia:** Las pruebas son realizadas sin gastos extremos. Hay dos conceptos que tomar en cuenta:
+  - Costo de Conformidad: Éste se paga para en búsqueda de la calidad, son los costos de detección y prevención de errores
+  - Costo de No Conformidad: Éste se paga cuándo no se puede conseguir la calidad y generalmente es un costo menor al de Conformidad. 
 
 
 ### ¿Qué es una prueba?
 
-[IVO pagina 21 y desglosar los conceptos de caracteristica, SUT, DOC, TestCase)
+Hemos hablado de la importancia de las pruebas en el ciclo de vida del software, ¿pero qué es en realidad una prueba y cúales son sus características?
+Hay dos etapas y conceptos que nos ayudan a entender lo que son las pruebas de software:
+
+- **Validar:** Con esto podemos evitar irnos por el camino equivocado de acuerdo a las necesidades y peticiones del cliente. Sin la validación, podemos terminar construyendo un software que no sea el solicitado o con las características requeridas.
+- **Verificar:** Con esto podemos asegurar que lo desarrollado cumpla las características de lo requerido, podemos detectar y corregir errores que pudieran desviar el resultado del objetivo.
+
+Conceptos a tomar en cuenta para las pruebas de software:
+- Feature (Característica): Unidad cuya funcionalidad puede ser comprobable y es construida en la evolución de un proyecto de software.
+- Subject Under Test (SUT): Característica que se esté probando en el momento.
+- Depended-on Component (DOC): Parte del software que no se está verificando en alguna prueba de las que depende el SUT. 
+- Test Case: (Caso de Prueba): Procedimiento para validar o verificar el SUT.
 
 #### Ejecucion
 
-[IVO pagina 22, 23 y 24]
+La ejecución de las pruebas de software se puede definir como la ejecución de un método o conjunto de pruebas. Esto puede incluir uno o más casos de prueba. La ejecución puede generar dos resultados:
+
+## Verde, pasa
+
+Se obtienen los resultados esperados cuando se ejecuta el caso de prueba sobre el SUT. 
+También pueden existir falsos negativos, que es cuando se obtiene el resultados esperado aunque el SUT no esté funcionando como debería con algunos error o fallos que pueden pasar desapercibidos. Usualmente estos fallos se apareceren en producción.
+
+## Rojo, no pasa
+
+Existió un fallo en la prueba, quiere decir que los resultados esperados cuando se ejecuta el caso de la prueba sobre el SUT, no se cumplieron. Aquí pueden existir dos casos:
+- Error en la prueba: Hubo algún error en la ejecución de la prueba. Suelen ser problemas locales fáciles de detectar.
+- Falso Positivo: Se produce un error aunque el SUT funcione correctamente. La prueba debe ser arreglada ajustandose de mejor manera al SUT.
 
 
 [Codigo: probar lo del reto 1, solo el flujo de altas]

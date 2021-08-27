@@ -24,7 +24,7 @@ El project manager ha definido como objetivo para este sprint generar un modelo 
 
 - Definir nuestor modelo de daots de forma grafica, puede ser alguno de los siguientes: diagrama de clases, diagrma aentidad-relacion, etc
 - Añadir los diagrmas resultantes como parte de la documentación a su repositorio
-- Utilizando (diagrmas.net)[https://app.diagrams.net/] (lucidchart)[https://www.lucidchart.com] o su herramienta preferida trabajar de forma colaborativa en los requerimientos dados
+- Utilizando [diagrmas.net](https://app.diagrams.net/) [lucidchart](https://www.lucidchart.com) o su herramienta preferida trabajar de forma colaborativa en los requerimientos dados
 - Hacer push de sus cambios a su repositorio
 
 
