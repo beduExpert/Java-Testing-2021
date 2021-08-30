@@ -8,8 +8,8 @@
 
 >**💡 Nota para experto(a)**
 >
-> Seleccionar un par de equipos para que presenten su implementación
-> Generar conversación con los siguientes temas: ¿cómo fue su proceso de desarrollo? ¿Cómo saben que su software está funcionando correctamente? ¿están probando su software?
+> Seleccionar un par de equipos para que presenten su implementación del reto 1
+> Generar conversación con los siguientes temas: ¿Cómo fue su proceso de desarrollo? ¿Cómo saben que su software está funcionando correctamente? ¿Están probando su software?
 
 ### El costo de probar software
 
@@ -21,17 +21,17 @@ Un estudio realizado por el Instituto de Nacional de Estándares de Tecnología 
 
 Es por esto que no debemos saltarnos el proceso de probar el software, debemos considerarlo nuestra obligación al desarrollar un proyecto de software. Con ésto nos estaremos ahorrando tiempo y lo que podría llegar a ser mucho dinero.
 
-### Eficencia y eficacia
+### Eficiencia y eficacia
 
 Las pruebas, así como muchas otras cosas medibles en nuestro entorno, también adaptan la eficacia y eficiencia a las necesidades del ciclo de vida del software. Aquí se presentan las definiciones de ambos términos para pruebas de software:
 
-- **Eficacia:** Produce un resultados deseado. Las pruebas deben ser correctamente ejecutadas y con las siguientes características:
+- **Eficacia:** Produce resultados deseados. Las pruebas deben ser correctamente ejecutadas y con las siguientes características:
   - Ejecutarlas tan rápidamente como sea posible.
   - Tratar de descubrir los errores tempranamente.
   - Encontrar los errores de mayor importancia antes que los de menos importancia.
 - **Eficiencia:** Las pruebas son realizadas sin gastos extremos. Hay dos conceptos que tomar en cuenta:
-  - Costo de Conformidad: Éste se paga para en búsqueda de la calidad, son los costos de detección y prevención de errores
-  - Costo de No Conformidad: Éste se paga cuándo no se puede conseguir la calidad y generalmente es un costo menor al de Conformidad. 
+  - Costo de Conformidad: Este se paga para en búsqueda de la calidad, son los costos de detección y prevención de errores
+  - Costo de No Conformidad: Este se paga cuándo no se puede conseguir la calidad y generalmente es un costo menor al de Conformidad. 
 
 
 ### ¿Qué es una prueba?
