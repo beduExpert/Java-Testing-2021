@@ -8,8 +8,8 @@
 
 ## Objetivo
 
-Basandonos en el Reto 1, debemos realizar la persistencia de datos del sistema desarrollado para la empresa ABC Technologies.
-El project manager ha definido como objetivo para este sprint añadir las siguientes características a nuestros sistema actual:
+Utilizando nuestro código del Reto 2, debemos realizar la persistencia de datos del sistema desarrollado para la empresa ABC Technologies.
+El project manager ha definido como objetivo para este sprint añadir las siguientes características a nuestro sistema actual:
 - Añadir persistencia de datos
 - Se debe poder leer y escribir los datos de los entrevistadores en archivos
 

@@ -8,13 +8,13 @@
 
 ## Objetivo
 
-Basandonos en el Reto 1, debemos probar que el sistema desarrollado para la empresa ABC Technologies haya podido automatizar algunas partes de su proceso para agendar entrevistas técnicas.
+Basándonos en el Reto 1, debemos probar que el sistema desarrollado para la empresa ABC Technologies haya podido automatizar algunas partes de su proceso para agendar entrevistas técnicas.
 
 El project manager ha definido como objetivo para este sprint realizar las pruebas que cumplan con las siguientes características:
 
 - Verificar que se puedan agregar nuevos entrevistadores mediante terminal.
 - Verificar se puedan consultar a los entrevistadores existentes en el sistema.
-- Verificar que se hayan guardado los datos esperador de un entrevistador, como son: correo, nombre completo, tecnologías, entre otras.
+- Verificar que se hayan guardado los datos esperados de un entrevistador, como son: correo, nombre completo, tecnologías, entre otras.
 - Verificar que los datos vivan en memoria.
 
 ## Desarrollo
