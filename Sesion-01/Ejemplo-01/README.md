@@ -48,7 +48,7 @@ Conceptos a tomar en cuenta para las pruebas de software:
 - Depended-on Component (DOC): Parte del software que no se está verificando en alguna prueba de las que depende el SUT. 
 - Test Case: (Caso de Prueba): Procedimiento para validar o verificar el SUT.
 
-#### Ejecucion
+#### Ejecución
 
 La ejecución de las pruebas de software se puede definir como la ejecución de un método o conjunto de pruebas. Esto puede incluir uno o más casos de prueba. La ejecución puede generar dos resultados:
 

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.test.interviewer.InterviewerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-08-30T18:19:08" hostname="nomarlo-home" time="0.051">
+  <properties/>
+  <testcase name="add()" classname="com.test.interviewer.InterviewerTest" time="0.042"/>
+  <testcase name="save()" classname="com.test.interviewer.InterviewerTest" time="0.004"/>
+  <testcase name="getByNonExistingEmail()" classname="com.test.interviewer.InterviewerTest" time="0.001"/>
+  <testcase name="getByEmail()" classname="com.test.interviewer.InterviewerTest" time="0.001"/>
+  <system-out><![CDATA[1
+1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

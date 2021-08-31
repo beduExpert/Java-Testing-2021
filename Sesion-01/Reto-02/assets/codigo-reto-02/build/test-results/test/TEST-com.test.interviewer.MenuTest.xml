@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.test.interviewer.MenuTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-31T02:21:03" hostname="nomarlo-home" time="0.057">
+  <properties/>
+  <testcase name="getInterviewer()" classname="com.test.interviewer.MenuTest" time="0.057"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
