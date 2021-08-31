@@ -22,8 +22,6 @@ El project manager ha definido como objetivo para este sprint añadir las siguie
 - Utilizando Code with me o Visual Studio Live Share trabajar de forma colaborativa
 - Hacer push de sus cambios a su repositorio
 
-Aquí se debe agregar eal desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
-
 
 <details>
   <summary>Solución</summary>
