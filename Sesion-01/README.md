@@ -10,7 +10,7 @@
 
 ## ⚙ Requisitos
 
-+ Consultar la sección de instalación del [Prework 01](https://docs.google.com/document/d/1Ef_JNE6lkb8nj9YtP3EKsdrt0jUSoFgQu8zueqXlEWc/edit?usp=sharing)
++ Consultar la sección de instalación del [Prework 01](https://docs.google.com/document/d/1AXGd56ZddqowzAkLaPuIEjAtL5HMDMVb1VcNtGP7-pA/edit?usp=sharing)
 
 
 ## 📂 Organización de la clase
@@ -23,7 +23,7 @@ Agregar los ejemplos y retos que va a requerir la sesión (Borrar está linea un
 - [Ejemplo 02: Tipos de pruebas](./Ejemplo-02)
 - [Ejemplo 03: Integracion continua](./Ejemplo-03)
     - [Reto 03: Añadir persistencia de datos](./Reto-03)
-- [Postwork: Nombre del postwork](./Postwork/README.md)
+- [Postwork](./Postwork/README.md)
 
 
 
