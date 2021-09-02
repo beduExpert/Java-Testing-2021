@@ -14,7 +14,7 @@ Para que una prueba unitaria tenga la calidad suficiente se deben cumplir los si
 
 - Automatizable: No debería requerirse una intervención manual.
 - Completas: Deben cubrir la mayor cantidad de código.
-- Repetibles: No se deben crear pruebas que sólo puedan ser ejecutadas una sola vez.
+- Repetibles: No se deben crear pruebas que solo puedan ser ejecutadas una sola vez.
 - Independientes: La ejecución de una prueba no debe afectar a la ejecución de otra.
 - Profesionales: Las pruebas deben ser consideradas igual que el código, con la misma
 profesionalidad, documentación, etc.

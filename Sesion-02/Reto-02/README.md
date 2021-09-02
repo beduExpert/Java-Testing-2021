@@ -13,8 +13,8 @@ La empresa ABC Technologies desea realizar un sistema que le permita automatizar
 
 El project manager ha definido como objetivo para este sprint generar un modelo de datos que permita al sistema tener las siguientes capacidades:
 
-- Una entrevista se considera como el conjunto de lo siguientes factores: un candidato, un entrevistador, un tipo de entrevista, una tecnologia especifica y una disciplina
-- Una entrevista debera contener una descripcion, una fecha y tiempo especifimos, duración y un estatus.
+- Una entrevista se considera como el conjunto de los siguientes factores: un candidato, un entrevistador, un tipo de entrevista, una tecnología especifica y una disciplina
+- Una entrevista debera contener una descripción, una fecha y tiempo específicos, duración y un estatus.
 - De los candidatos se desea almacenar la misma información que de los entrevistadores.
 
 
@@ -22,8 +22,8 @@ El project manager ha definido como objetivo para este sprint generar un modelo 
 
 ### Instrucciones:
 
-- Definir nuestor modelo de daots de forma grafica, puede ser alguno de los siguientes: diagrama de clases, diagrma aentidad-relacion, etc
-- Añadir los diagrmas resultantes como parte de la documentación a su repositorio
+- Definir nuestro modelo de datos de forma gráfica, puede ser alguno de los siguientes: diagrama de clases, diagrama entidad-relación, etc.
+- Añadir los diagramas resultantes como parte de la documentación a su repositorio
 - Utilizando [diagrmas.net](https://app.diagrams.net/) [lucidchart](https://www.lucidchart.com) o su herramienta preferida trabajar de forma colaborativa en los requerimientos dados
 - Hacer push de sus cambios a su repositorio
 
@@ -31,5 +31,8 @@ El project manager ha definido como objetivo para este sprint generar un modelo 
 
 
 
-Aquí se debe agregar el desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
+<details>
+  <summary>Solución</summary>
+![diagrama de clases]()
+</details>
 

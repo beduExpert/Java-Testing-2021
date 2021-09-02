@@ -3,7 +3,7 @@
 
 ## :dart: Objetivos
 
-Agregar los objetivos de las sesión
+Agregar los objetivos de la sesión
 
 - Entender la importancia de escribir pruebas que garanticen el correcto funcionamiento de un método, por muy simple que sea
 - Conocer y aplicar las técnicas, recomendaciones y buenas prácticas para escribir pruebas unitarias.
@@ -11,14 +11,13 @@ Agregar los objetivos de las sesión
 
 ## 📂 Organización de la clase
 
-Agregar los ejemplos y retos que va a requerir la sesión (Borrar está linea una vez se hay leido)
 
 - [Ejemplo 01: Tipos de pruebas](./Ejemplo-01)
 - [Ejemplo 02: Pruebas unitarias](./Ejemplo-02)
     - [Reto 01: Bajas de entrevistadores](./Reto-01)
-- [Ejemplo 03: Pruebas unitarias](./Ejemplo-02)
-    - [Reto  02: Cambios en los entrevistadores](./Reto-02)
-- [Postwork: Nombre del postwork](./Postwork/README.md)
+- [Ejemplo 03: Como seleccionar casos de prueba](./Ejemplo-03)
+    - [Reto  02: Definir modelo de datos para entrevistas](./Reto-02)
+- [Postwork:](./Postwork/README.md)
 
 
 
