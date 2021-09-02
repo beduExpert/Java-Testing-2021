@@ -33,6 +33,7 @@ El project manager ha definido como objetivo para este sprint generar un modelo 
 
 <details>
   <summary>Solución</summary>
+
 ![diagrama de clases](https://raw.githubusercontent.com/beduExpert/Java-Testing-2021/main/Sesion-02/Reto-02/assets/resultado-sesion-2-reto-2.png)
 </details>
 
