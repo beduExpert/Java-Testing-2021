@@ -2,10 +2,11 @@
 # Sesión 01: Introduction to testing
 ## :dart: Objetivos
 
-- Por qué y para qué probamos el software
-- ¿Qué es el testing en el ciclo de desarrollo de Software? 
-- ¿Qué tipos de pruebas existen? 
-- Técnicas básicas para el diseño de pruebas
+- Entender el porqué y para qué probamos el software
+- Comprender las diferentes etapas del testing en el ciclo de desarrollo de software
+- Conocer y aplicar los diferentes tipos de pruebas
+- Elaborar pruebas aplicando técnicas básicas
+
 
 
 ## ⚙ Requisitos

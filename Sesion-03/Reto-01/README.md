@@ -1,15 +1,74 @@
-# Reto # - Nombre del reto
+# Reto 1 - Migrar pruebas de JUnit 4 a Junit5 
 
-## Objetivo
-
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
 
 ## Desarrollo
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el reto.
->Si no es necesario, puedes borrar esta nota.
+Dado el siguiente código de una calculadora básica con pruebas en JUnit 4 migrar las pruebas a JUnit 5.
 
-Aquí se debe agregar el desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
+`Calculator.java`
+```java
+public class Calculator {
 
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    public int multiply(int a, int b) {
+        int result = 0;
+        for (int i = 0; i < b; i++) {
+            result += add(result,a);
+        }
+        return result;
+    }
+}
+```
+
+`CalculatorTest.java`
+```java
+public class CalculatorTest {
+    private int a,b;
+    
+    
+    @Before
+    public void setUp(){
+        a = ThreadLocalRandom.current().nextInt();
+        b = ThreadLocalRandom.current().nextInt();
+    }
+
+    @Test
+    public void testAdd() {       
+        int result = calculator.add(a, b);
+
+        assertEquals("Resultado incorrecto de la suma", a + b, result);
+    }
+
+    @Test(expected = Exception.class)
+    public void testAddThrowsExceptionWhenIsCalledWithInvalidParams() {
+        String c = "hello";
+        int result = calculator.add(a, c);
+
+        assertEquals("Resultado incorrecto de la suma", a + b, result);
+    }
+
+    @Test
+    public void testMultiply() {
+        int additionResult = calculator.add(a, b);
+
+        assumeNotNull(additionResult);
+
+        int multiplicationResult = calculator.multiply(a, b);
+
+        Assertions.assertEquals("Resultado incorrecto de la multiplicación",a * b, multiplicationResult);
+    }
+}
+```
+
+<details>
+  <summary>Solución</summary>
+
+`CalculatorTest.java`
+```java
+
+```
+
+</details>
