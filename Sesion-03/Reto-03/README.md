@@ -1,15 +1,13 @@
-# Reto # - Nombre del reto
-
-## Objetivo
-
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
+# Reto 3 - Pruebas con Selenium
 
 ## Desarrollo
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el reto.
->Si no es necesario, puedes borrar esta nota.
+Realizaremos pruebas sobre la siguiente página de una pregunta de stack overflow
 
-Aquí se debe agregar eal desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
+https://stackoverflow.com/questions/57455436/using-object-to-embed-svg-but-doesnt-show-anything/57536936#57536936
 
+- Una prueba que valide el título de la pregunta
+- Una prueba que valide el número de votos de la pregunta
+- Una prueba que valide el número de respuestas
+- Una prueba que valide el usuario de la primera respuesta
+- Una prueba que valide el número de la respuesta más votada 

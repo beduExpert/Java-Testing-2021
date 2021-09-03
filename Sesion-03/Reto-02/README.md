@@ -1,15 +1,33 @@
-# Reto # - Nombre del reto
-
-## Objetivo
-
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
+# Reto 2 - Pruebas unitarias con JUnit
 
 ## Desarrollo
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el reto.
->Si no es necesario, puedes borrar esta nota.
+Utilizando como base el siguiente código de la calculadora realiza las siguientes pruebas
 
-Aquí se debe agregar eal desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
+- Una prueba que solo se ejecute cunado nos encontramos en nuestro sistema operativo actual
+- Una prueba que solo se ejecute en algún sistema operativo diferente a nuestro sistema operativo actual
+- Una prueba que solo se ejecute en el ambiente de desarrollo y configurar nuestras variables de entorno para indicar
+  que estamos en el ambiente de desarrollo
+- Una prueba parametrizada para la suma
+- Una prueba parametrizada para la multiplicación
+- Una prueba con un display name distinto al nombre de la función
+
+`Calculator.java`
+
+```java
+public class Calculator {
+
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    public int multiply(int a, int b) {
+        int result = 0;
+        for (int i = 0; i < b; i++) {
+            result += add(result, a);
+        }
+        return result;
+    }
+}
+```
 
