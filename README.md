@@ -6,7 +6,7 @@ En este modulo nos adentraremos en las herramientas para realizar testing en sof
 
 ## :dart: Objetivo
 
-En este curso aprenderás obtednras una visión general de la disciplina de pruebas, 
+En este curso aprenderás obtendras una visión general de la disciplina de pruebas, 
 entendiendo la necesidad de las pruebas del software, los objetivos de las pruebas,
 así como su cantidad idonea y los conceptos fundamentas de la disciplina.
 
