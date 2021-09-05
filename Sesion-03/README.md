@@ -1,5 +1,5 @@
 
-# Sesión #: JUnit & TestNG
+# Sesión 3: JUnit & TestNG
 
 ## :dart: Objetivos
 
