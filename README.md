@@ -8,7 +8,7 @@ En este modulo nos adentraremos en las herramientas para realizar testing en sof
 
 En este curso aprenderás obtendras una visión general de la disciplina de pruebas, 
 entendiendo la necesidad de las pruebas del software, los objetivos de las pruebas,
-así como su cantidad idonea y los conceptos fundamentas de la disciplina.
+así como su cantidad idonea y los conceptos fundamentales de la disciplina.
 
 Te familiarizas con distintas herramientas como JUnit, TestNG, Mockito, SonarQube,entre otras.
 
