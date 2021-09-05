@@ -34,7 +34,7 @@ Consultar la sección de instalación del [Prework 01](https://docs.google.com/d
  
 - [`Sesión 01:` Introduction to testing](./Sesion-01)
 - [`Sesión 02:` Unit Testing in Java](./Sesion-02)
-- [`Sesión 03:` Nombre de la sesión 03](./Sesion-03)
+- [`Sesión 03:` JUnit & TestNG](./Sesion-03)
 - [`Sesión 04:` Nombre de la sesión 04](./Sesion-04)
 - [`Sesión 05:` Nombre de la sesión 05](./Sesion-05)
 - [`Sesión 06:` Nombre de la sesión 06](./Sesion-06)
