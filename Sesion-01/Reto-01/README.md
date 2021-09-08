@@ -1,39 +1,40 @@
 # Reto 1 - Altas y consultas de entrevistadores
 
->**💡 Nota para experto(a)**
-> 
+> **💡 Nota para experto(a)**
+>
 > A lo largo de este curso los alumnos estarán trabajando en equipos de dos integrantes, por ello como primera actividad el experto definirá las parejas, en caso de ser un grupo con un número impar podría haber equipos de tres personas.
 >
 > Los retos buscan emular un entorno real de trabajo, en los mismos habrá descripciones vagas de los requerimientos y el experto fungirá como stakeholder para clarificar dudas o añadir detalles a los requerimientos.
 
-
 ## Objetivo
 
-La empresa ABC Technologies desea realizar un sistema que le permita automatizar algunas partes de su proceso para agendar entrevistas técnicas. 
+La empresa ABC Technologies desea realizar un sistema que le permita automatizar algunas partes de su proceso para
+agendar entrevistas técnicas.
 
-El project manager ha definido como objetivo para este sprint implementar un sistema que cumpla con las siguientes características:
+El project manager ha definido como objetivo para este sprint implementar un sistema que cumpla con las siguientes
+características:
 
 - Mediante terminal permite agregar nuevos entrevistadores.
 - Mediante terminal se pueden consultar a los entrevistadores existentes en el sistema.
 - Algunos de los datos que se esperan de un entrevistador son: correo, nombre completo, tecnologías, entre otras.
-- La persistencia de datos no está en el alcance de este sprint, por lo que los datos serán efímeros viviendo solo en memoria.
-
+- La persistencia de datos no está en el alcance de este sprint, por lo que los datos serán efímeros viviendo solo en
+  memoria.
 
 ## Desarrollo
 
 ### Instrucciones:
 
 - Crear un repositorio en la cuenta de github de cualquiera de los integrantes y añadir a los demás como colaboradores.
-- Durante el curso utilizaremos gradle, por loq ue te recomendamos crear el proyecto usando gradle 
+- Durante el curso utilizaremos gradle, por lo que te recomendamos crear el proyecto usando gradle
 - Utilizando Code with me o Visual Studio Live Share trabajar de forma colaborativa en los requerimientos dados
 - Hacer push de sus cambios a su repositorio
 - Todos los integrantes del equipo deben clonar el repositorio en su computadora
-
 
 <details>
   <summary>Solución</summary>
 
 `Menu.java`
+
 ```java
 package com.test.interviewer;
 
@@ -53,7 +54,7 @@ public class Menu {
     public void showMainMenu() {
         int option = 0;
 
-        while (option != 3 ) {
+        while (option != 3) {
             System.out.println("Seleccione la operacion a realizar:");
             System.out.println("1. Dar de alta un entrevistador");
             System.out.println("2. Consultar un entrevistador");
@@ -70,7 +71,8 @@ public class Menu {
                     searchInterviewer();
                     break;
             }
-        };
+        }
+        ;
 
         System.out.println("Programa terminado");
     }
@@ -111,7 +113,9 @@ public class Menu {
     }
 }
 ```
+
 `Interviewer.java`
+
 ```java
 package com.test.interviewer;
 
@@ -166,7 +170,7 @@ public class Interviewer implements Serializable {
     }
 
     public static Interviewer getByEmail(String email) {
-        for (Interviewer interviewer: data) {
+        for (Interviewer interviewer : data) {
             if (interviewer.email.equals(email))
                 return interviewer;
         }
@@ -185,6 +189,7 @@ public class Interviewer implements Serializable {
 }
 
 ```
+
 </details>
 
 

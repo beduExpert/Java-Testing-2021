@@ -1,16 +1,13 @@
-
 # Sesión #2: Unit Testing in Java
 
 ## :dart: Objetivos
 
-Agregar los objetivos de la sesión
-
 - Definir que es una prueba unitaria
-- Entender la importancia de escribir pruebas que garanticen el correcto funcionamiento de un método, por muy simple que sea
-- Conocer técnicas, recomendaciones y buenas prácticas para escribir pruebas unitarias.
+- Reconocer la importancia de escribir pruebas que garanticen el correcto funcionamiento de un método, por muy simple
+  que sea
+- Analizar técnicas, recomendaciones y buenas prácticas para escribir pruebas unitarias.
 
 ## 📂 Organización de la clase
-
 
 - [Ejemplo 01: Tipos de pruebas](./Ejemplo-01)
 - [Ejemplo 02: Pruebas unitarias](./Ejemplo-02)

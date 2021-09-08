@@ -1,15 +1,12 @@
-# Reto # - Nombre del reto
-
-## Objetivo
-
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
+# Reto 2 - Pruebas de caja negra
 
 ## Desarrollo
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el reto.
->Si no es necesario, puedes borrar esta nota.
+Describir casos de prueba aplicando técnicas de caja negra. Durante este reto solo describiremos los posibles casos de
+prueba, todavía no debemos codificarlos. Los casos de prueba deben ser desarrollados para la historia de agregar un
+entrevistador
 
-Aquí se debe agregar eal desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
-
+- Generar casos de prueba utilizando la técnica de: Análisis de valores límite 
+- Generar casos de prueba utilizando la técnica de: Partición de equivalencia  
+- Generar casos de prueba utilizando la técnica de: Transición entre estados
+- Generar casos de prueba utilizando la técnica de: Tablas de decisión

@@ -68,7 +68,47 @@ public class CalculatorTest {
 
 `CalculatorTest.java`
 ```java
+class CalculatorTest {
+    private int a, b;
+    private Calculator calculator;
 
+    @BeforeEach
+    void setUp() {
+        calculator = new Calculator();
+
+        a = ThreadLocalRandom.current().nextInt();
+        b = ThreadLocalRandom.current().nextInt();
+    }
+
+    @Test
+    void testAdd() {
+        int result = calculator.add(a, b);
+
+        assertEquals( a + b, result, "Resultado incorrecto de la suma");
+    }
+
+    @Test
+    void testAddThrowsExceptionWhenIsCalledWithInvalidParams() {
+        String c = "hello";
+
+        assertThrows(Exception.class, () -> {
+            int result = calculator.add(a, c);
+
+            assertEquals( a + b, result, "Resultado incorrecto de la suma");
+        });
+    }
+
+    @Test
+    void testMultiply() {
+        int additionResult = calculator.add(a, b);
+
+        assumeTrue(additionResult == a+b);
+
+        int multiplicationResult = calculator.multiply(a, b);
+
+        Assertions.assertEquals(a * b, multiplicationResult, "Resultado incorrecto de la multiplicación");
+    }
+}
 ```
 
 </details>

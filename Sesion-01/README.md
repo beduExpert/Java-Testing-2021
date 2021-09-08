@@ -2,9 +2,9 @@
 # Sesión 01: Introduction to testing
 ## :dart: Objetivos
 
-- Entender el porqué y para qué probamos el software
-- Comprender las diferentes etapas del testing en el ciclo de desarrollo de software
-- Conocer y aplicar los diferentes tipos de pruebas
+- Demostrar el porqué y para qué probamos el software
+- Identificar las diferentes etapas del testing en el ciclo de desarrollo de software
+- Aplicar los diferentes tipos de pruebas
 - Elaborar pruebas aplicando técnicas básicas
 
 
@@ -15,8 +15,6 @@
 
 
 ## 📂 Organización de la clase
-
-Agregar los ejemplos y retos que va a requerir la sesión (Borrar está linea una vez se hay leido)
 
 - [Reto 01: Altas y consultas para entrevistadores](./Reto-01)
 - [Ejemplo 01:  El costo de probar software](./Ejemplo-01)

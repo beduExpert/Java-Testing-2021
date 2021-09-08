@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-* Conocer los diferentes tipos de pruebas
+* Identificar los diferentes tipos de pruebas
 
 ## Desarrollo
 

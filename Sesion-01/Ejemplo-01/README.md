@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-* Entender cuál es el verdadero costo de: probar el software y de no hacerlo
+* Identificar cuál es el verdadero costo de: probar el software y de no hacerlo
 
 ## Desarrollo
 

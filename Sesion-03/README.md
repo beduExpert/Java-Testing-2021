@@ -1,20 +1,16 @@
-
 # Sesión 3: JUnit & TestNG
 
 ## :dart: Objetivos
 
-- Conocer y utilizar JUnit
-- Conocer y utilizar TestNG
+- Utilizar JUnit
+- Utilizar TestNG
 - Comparar las herramientas JUnit y TestNG
-
 
 ## ⚙ Requisitos
 
 + Completar el prework para tener instalado gradle, JUnit y TestNG
 
 ## 📂 Organización de la clase
-
-Agregar los ejemplos y retos que va a requerir la sesión (Borrar está linea una vez se hay leido)
 
 - [Ejemplo 01:  Diferencias entre JUnit 4 y 5](./Ejemplo-01)
     - [Reto 01: Migrar pruebas de JUnit 4 a JUnit 5](./Reto-01)

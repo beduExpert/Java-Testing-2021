@@ -1,6 +1,6 @@
 # Postwork
 
-[Instructions] (https://docs.google.com/document/d/1RnxO-wmpxGFD5JSZtCvUKKRhEInfIMh4aCppziQWbMY/edit?usp=sharing)
+[Instrucciones] (https://docs.google.com/document/d/1RnxO-wmpxGFD5JSZtCvUKKRhEInfIMh4aCppziQWbMY/edit?usp=sharing)
 
 <details>
   <summary>Solución</summary>
