@@ -1,15 +1,64 @@
-# Reto # - Nombre del reto
-
-## Objetivo
-
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
+# Reto 3 - Inyeccion d emocks
 
 ## Desarrollo
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el reto.
->Si no es necesario, puedes borrar esta nota.
+En este reto desarrollaremos las pruebas para el método `calculateSumWithADataService`, en lugar de setear manualmente
+nuestros mocks, los inyectaremos tomando ventaja d elas anotaciones de mockito como lo vimos en el ejemplo anterior,
+debemos probar dos casos:
 
-Aquí se debe agregar eal desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
+- Cuando nuestro `DataService` regresa un arreglo vació
+- Cuando nuestro `DataService` regresa un arreglo con un único valor
+
+`SomeBusinessLogicMockTest.java`
+<details>
+  <summary>Solución</summary>
+
+```java
+package com.example.demo.business;
+
+import com.example.demo.data.SomeDataService;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.MockitoJUnitRunner;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
+
+
+@ExtendWith(MockitoExtension.class)
+class SomeBusinessLogicMockTest {
+
+    @InjectMocks
+    SomeBusinessLogic business;
+
+    @Mock
+    SomeDataService dataServiceMock;
+
+    @Test
+    public void calculateSumUsingDataService_basic() {
+        when(dataServiceMock.retrieveAllData()).thenReturn(new int[]{1, 2, 3});
+        assertEquals(6, business.calculateSumWithADataService());
+    }
+
+    @Test
+    public void calculateSumUsingDataService_empty() {
+        when(dataServiceMock.retrieveAllData()).thenReturn(new int[]{});
+        assertEquals(0, business.calculateSumWithADataService());
+    }
+
+    @Test
+    public void calculateSumUsingDataService_oneValue() {
+        when(dataServiceMock.retrieveAllData()).thenReturn(new int[]{5});
+        assertEquals(5, business.calculateSumWithADataService());
+    }
+}
+
+```
+
+</details>
+
 

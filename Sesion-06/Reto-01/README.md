@@ -1,8 +1,6 @@
-# Reto # - Nombre del reto
+# Reto 1 - Nombre del reto
 
-## Objetivo
 
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
 
 ## Desarrollo
 
