@@ -7,7 +7,7 @@ utilizaremos distintas herramientas de análisis estático de código.
 
 ## :dart: Objetivo
 
-En este curso aprenderás obtendrás una visión general de la disciplina de pruebas, entendiendo la necesidad de las
+En este curso obtendrás una visión general de la disciplina de pruebas, entendiendo la necesidad de las
 pruebas del software, los objetivos de las pruebas, así como su cantidad idónea y los conceptos fundamentales de la
 disciplina.
 
