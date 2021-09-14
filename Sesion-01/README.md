@@ -22,7 +22,7 @@
 - [Ejemplo 02: Tipos de pruebas](./Ejemplo-02)
 - [Ejemplo 03: Integracion continua](./Ejemplo-03)
     - [Reto 03: Añadir persistencia de datos](./Reto-03)
-- [Postwork](./Postwork/README.md)
+- [Postwork](./Postwork)
 
 
 
