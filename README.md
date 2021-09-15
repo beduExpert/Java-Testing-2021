@@ -30,7 +30,7 @@ agendar entrevistas.
 ## :gear: Requerimientos
 
 Consultar la sección de instalación
-del [Prework 01](https://docs.google.com/document/d/1Ef_JNE6lkb8nj9YtP3EKsdrt0jUSoFgQu8zueqXlEWc/edit?usp=sharing)
+del [Prework 01](https://docs.google.com/document/d/1AXGd56ZddqowzAkLaPuIEjAtL5HMDMVb1VcNtGP7-pA/edit?usp=sharing)
 
 ## :bookmark_tabs: Sesiones
 
