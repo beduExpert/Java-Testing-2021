@@ -1,6 +1,83 @@
 # Postwork
 
-[Instrucciones] (https://docs.google.com/document/d/1RnxO-wmpxGFD5JSZtCvUKKRhEInfIMh4aCppziQWbMY/edit?usp=sharing)
+[Ver en Google docs](https://docs.google.com/document/d/1RnxO-wmpxGFD5JSZtCvUKKRhEInfIMh4aCppziQWbMY/edit?usp=sharing)
+
+
+
+
+## 🎯 OBJETIVOS
+
+Desarrollar funcionalidad adicional a nuestro programa.
+Añadir pruebas unitarias adicionales para probar su funcionalidad.
+Aplicar técnicas de diseño de pruebas.
+Familiarizarse con la herramienta JUNIT.
+
+## 🚀 DESARROLLO
+
+Durante nuestro work, desarrollamos las primeras funcionalidades de nuestro software de entrevistas  y nos comenzamos a familiarizar con el uso de JUnit. Ahora en este post work continuaremos con el desarrollo del software de entrevistas y exploraremos algunas funcionalidades de JUnit realizando el siguiente ejercicio.
+
+El project manager ha definido como objetivo para este sprint añadir las siguientes características a nuestro sistema actual:
+La información de los entrevistadores se puede modificar desde terminal.
+La definición de hecho (Definition of Done) establece que todo el código generado debe contar con pruebas unitarias.
+
+1. Añade la opción número 3 al menú, con el texto: "3. Modificar un entrevistador" 
+
+1. Dentro de nuestro switch generar el case con valor 3 y llamar a la función modifyInterviewer que crearemos a continuación
+
+1. Crear la función modifyInterviewer solicitar el email del entrevistador y en caso de no encontrarlo imprimir el mensaje:  "Entrevistador no encontrado"
+
+
+1. Solo se debe continuar en este flujo si el entrevistador fue encontrado. Solicitar a continuación el nuevo nombre, apellido y email, mencionando que se debe apretar Enter para mantener el valor actual. Preguntar si el entrevistador se encuentra activo.
+                    
+
+1. Guardar los datos del entrevistador llamando a la función save de nuestro objeto interviewer.
+
+1. Añadir las pruebas unitarias correspondientes para validar el correcto funcionamiento de la funcionalidad de editar entrevistadores.
+
+
+## Indicaciones generales
+
+Una vez que hayas terminado  la actividad responde las siguientes preguntas:
+
+¿Cómo estás creando la prueba para validar que se guardan correctamente los archivos?
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+¿Decidiste probar directamente en los métodos de la clase interviewer o estás probando en el menú? ¿?
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+¿Crees que existe diferencia entre las pruebas hechas directamente a la clase interviewer y las realizadas al menú? ¿Por qué?
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+¡Mucho éxito y reta tu potencial!
+
+
+
+## ✅ Checklist 
+
+Asegúrate que tu postwork contenga todo lo siguiente, ya que esto se evaluará al término del módulo.
+
+- [ ] El usuario desde terminal puede seleccionar una opción que le permita editar la información de un entrevistador.
+
+
+
+
+- [ ] El usuario podrá seleccionar el entrevistador a editar ingresando su id o su email.
+
+
+
+
+- [ ] El usuario podrá editar todos los campos de un entrevistador.
+
+
+
+
+- [ ] Test que valide que la información contenida en los archivos, después de la edición, sea la correcta.
+
+
+
+
+
+
+
 
 <details>
   <summary>Solución</summary>
