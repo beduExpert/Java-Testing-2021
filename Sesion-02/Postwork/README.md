@@ -43,7 +43,7 @@ La definición de hecho (Definition of Done) establece que todo el código gener
 
     
 
-Indicaciones generales
+### Indicaciones generales
 
 Una vez que hayas terminado  la actividad responde las siguientes preguntas:
 
