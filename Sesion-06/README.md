@@ -1,4 +1,4 @@
-# Sesión #: Nombre de la sesión
+# Sesión 6: Test Driven Development
 
 ## :dart: Objetivos
 
