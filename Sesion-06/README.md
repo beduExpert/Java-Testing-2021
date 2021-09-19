@@ -2,8 +2,8 @@
 
 ## :dart: Objetivos
 
-- Analizar qué es esta técnica de programación, sus orígenes y la lógica detrás de su funcionamiento. -Aplicar el ciclo
-  rojo, verde, refactorización.
+- Analizar qué es esta técnica de programación, sus orígenes y la lógica detrás de su funcionamiento. 
+- Aplicar el ciclo rojo, verde, refactorización.
 - Explorar la escuela Londres de TDD (de afuera hacia adentro o también conocido como mockistas)
 - Explorar la escuela Chicago de TDD (de adentro hacia afuera o también conocido como clasistas)
 
