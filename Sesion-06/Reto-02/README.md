@@ -1,15 +1,70 @@
-# Reto # - Nombre del reto
-
-## Objetivo
-
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
+# Reto 2 - Segunda transformación
 
 ## Desarrollo
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el reto.
->Si no es necesario, puedes borrar esta nota.
+Como revisamos en nuestro ejemplo 2, ciertos patrones comienzan a emerger de nuestro código. Durante este reto
+siguiendo _la premisa del principio de transformación_
 
-Aquí se debe agregar eal desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
+    ({}–>nil) ningún código en absoluto que pasa a código que emplea null
+    (nil->constant)
+    (constant->constant+) una constante simple con una constante mas compleja
+    (constant->scalar) remplazando con una constante con una variable o un argumento
+    (statement->statements) añadiendo masdeclaraciones no condicionales
+    (unconditional->if) dividiendo el camino de ejecución
+    (scalar->array)
+    (array->container)
+    (statement->recursion)
+    (if->while)
+    (expression->function) remplazando una expresióncon una función o un algoritmo
+    (variable->assignment) remplazando el valor de una variable 
 
+Nuestra segunda transformación consistirá en: eliminar una condicional y cambiar el alcance de una condicional
+existente.
+
+Instrucciones:
+
+Elimina completamente la condición `else if (unSortedList.length == 2)` y modifica el código existente para pasar los
+casos de prueba Modifica la condición `if (unSortedList.length == 1) {` y su código interno para poder pasar con éxito
+el caso de prueba cuando la entrada es: `new int[]{}`
+
+<details>
+  <summary>Solución</summary>
+
+```java
+package Sort;
+
+public class Sorter {
+    public static List<Integer> Sort(int[] unSortedList) {
+        List<Integer> sorted = new ArrayList<Integer>();
+        if (unSortedList.length == 0) {
+            return sorted;
+        } else {
+            Integer lower = null;
+            int medium = unSortedList[0];
+            Integer higher = null;
+
+            for (int element : unSortedList) {
+                if (element > medium) {
+                    higher = element;
+                }
+                if (element < medium) {
+                    lower = element;
+                }
+
+            }
+
+            if (lower != null) sorted.add(lower);
+            sorted.add(medium);
+            if (higher != null)  sorted.add(higher);
+        }
+
+        return sorted;
+    }
+
+
+}
+```
+
+</details>
+
+¿Qué limitaciones presenta la solución propuesta?

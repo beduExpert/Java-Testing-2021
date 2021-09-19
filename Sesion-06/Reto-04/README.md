@@ -1,4 +1,4 @@
-# Reto 3 - Tercera transformación
+# Reto 4 - Cuarta transformación
 
 ## Desarrollo
 
@@ -18,7 +18,7 @@ siguiendo _la premisa del principio de transformación_
     (expression->function) remplazando una expresióncon una función o un algoritmo
     (variable->assignment) remplazando el valor de una variable 
 
-A continuación añadiremos dos casos de prueba más
+A continuación añadiremos un caso de prueba más
 
 ```java
 package Sort;
@@ -90,14 +90,21 @@ public class SorterTest {
                         Arrays.asList(1, 2, 3)),
                 Sorter.Sort(new int[]{1, 3, 2})));
     }
-    
+
+    @Test
+    public void SortListWithThreeElementsFirstTwoSwapped_ShouldReturnSortedList() {
+        Assert.assertTrue(Arrays.equals(new ArrayList<Integer>(
+                        Arrays.asList(1, 2, 2, 3)),
+                Sorter.Sort(new int[]{3, 2, 2, 1})));
+    }
+
 }
 
 ```
 
 Instrucciones:
 
-Realiza las transformaciones correspondientes para pasar estos dos nuevos casos.
+Realiza las transformaciones correspondientes para pasar el nuevo caso de prueba.
 
 <details>
   <summary>Solución</summary>
@@ -108,7 +115,7 @@ package Sort;
 public class Sorter {
     public static List<Integer> Sort(int[] unSortedList) {
         List<Integer> sorted = new ArrayList<Integer>();
-        if (unSortedList.length <= 1) {
+        if (unSortedList.length == 0) {
             return sorted;
         } else {
             List<Integer> lower = new ArrayList<Integer>();
@@ -116,11 +123,11 @@ public class Sorter {
             List<Integer> higher = new ArrayList<Integer>();
             ;
 
-            for (int element : unSortedList) {
+            for (int index = 1; index < unSortedList.length; index++) {
+                int element = unSortedList[index];
                 if (element > medium) {
                     higher.add(element);
-                }
-                if (element < medium) {
+                } else {
                     lower.add(element);
                 }
 
