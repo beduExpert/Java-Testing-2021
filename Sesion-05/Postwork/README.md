@@ -1,4 +1,6 @@
-# Posrtwork
+[Ver en Google docs](https://docs.google.com/document/d/1SmvoLT2NjP-ul1osiMf4Ix5Zx0-MxvOKJ2M_3CX1eZg/edit)
+
+# Postwork
 
 ## 🎯 OBJETIVOS
 
