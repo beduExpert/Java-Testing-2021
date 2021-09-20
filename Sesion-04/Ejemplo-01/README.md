@@ -1,4 +1,4 @@
-# Ejemplo 4 - Técnicas de caja negra: Requerimiento funcional / Caso de uso
+# Ejemplo 1 - Técnicas de caja negra: Requerimiento funcional / Caso de uso
 
 ## Desarrollo
 
