@@ -14,7 +14,7 @@
     - [Reto 01: Casos de usos](./Reto-01)
 - [Ejemplo 02: Técnicas de caja negra](./Ejemplo-02)
     - [Reto 02: Pruebas con técnicas de caja negra](./Reto-02)
-- [Ejemplo 03: Técnicas de caja blanca](./Ejemplo-02)
+- [Ejemplo 03: Técnicas de caja blanca](./Ejemplo-03)
 - [Postwork](./Postwork)
 
 
