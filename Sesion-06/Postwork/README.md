@@ -28,6 +28,17 @@ Tip: La clave para derivar en un algoritmo menos eficiente es utilizar una trans
 particular de un bucle sort en lugar de un quicksort, dicha clave es transformar utilizando un asignación en lugar de
 preferir el cómputo/lógica.
 
+### Sigue estas instrucciones:
+
+1. Crea un nuevo archivo llamado BubbleSortTest.java
+1. Crea un nuevo archivo llamado BubbleSort.java
+1. Añade el primer caso de prueba para un arreglo vacío
+1. Implementar el código mínimo necesario para pasar este caso de uso
+1. Refactoriza el código de ser necesario
+1. Aplica las transformaciones que sean necesarias
+1. Repite los pasos del 3 al 6 hasta completar los casos de prueba vistos durante el work.
+
+
 ### Indicaciones generales
 
 ¿Terminaste la actividad? Responde las siguientes preguntas:
