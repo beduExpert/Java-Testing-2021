@@ -58,13 +58,13 @@ ________________________________________________________________________________
 
 Asegúrate que tu postwork contenga todo lo siguiente, ya que esto se evaluará al término del módulo.
 
--[ ] Tú implementación del algoritmo bubble sort funciona correctamente
+- [ ] Tú implementación del algoritmo bubble sort funciona correctamente
 
 
--[ ] Seguiste un proceso de TDD para su desarrollo
+- [ ] Seguiste un proceso de TDD para su desarrollo
 
 
--[ ] Documentaste cada paso del desarrollo
+- [ ] Documentaste cada paso del desarrollo
 
 
 
