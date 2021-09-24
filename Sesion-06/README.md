@@ -9,8 +9,6 @@
 
 ## 📂 Organización de la clase
 
-Agregar los ejemplos y retos que va a requerir la sesión (Borrar está linea una vez se hay leido)
-
 - [Ejemplo 01:  Las tres reglas de TDD](./Ejemplo-01)
 - [Ejemplo 02: La premisa del principio de transformación](./Ejemplo-02)
     - [Reto 01: Primera transformación](./Reto-01)
