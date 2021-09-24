@@ -8,8 +8,6 @@
 
 ## 📂 Organización de la clase
 
-Agregar los ejemplos y retos que va a requerir la sesión (Borrar está linea una vez se hay leido)
-
 - [Ejemplo 01: Creación de un servicio básico y sus pruebas](./Ejemplo-01)
 - [Ejemplo 02: Añadir un data service](./Ejemplo-02)
     - [Reto 01: Pruebas con stubs](./Reto-01)
