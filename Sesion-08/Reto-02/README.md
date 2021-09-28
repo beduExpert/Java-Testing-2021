@@ -1,15 +1,11 @@
-# Reto # - Nombre del reto
-
-## Objetivo
-
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
+# Reto 2 - Ejecutar SonarLint en tu proyecto
 
 ## Desarrollo
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el reto.
->Si no es necesario, puedes borrar esta nota.
+Ahora es tu turno de ejecutar el análisis con SonarLint en tu código.
 
-Aquí se debe agregar eal desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
+- Instala SonarLint en tu proyecto.
+- Sigue los pasos listados en el ejemplo anterior.
+- Reinicia tu IDE.
+- Elige algunos de los Bugs o Code Smells y corrígelos.
 
