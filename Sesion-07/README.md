@@ -11,8 +11,6 @@
 
 ## 📂 Organización de la clase
 
-Agregar los ejemplos y retos que va a requerir la sesión (Borrar está linea una vez se hay leido)
-
 - [Ejemplo 01:  Métricas DORA](./Ejemplo-01)
 - [Ejemplo 02: Las 4 métricas clave](./Ejemplo-02)
   - [Reto 01: Implementación de métricas clave I](./Reto-01)
