@@ -40,5 +40,5 @@ del [Prework 01](https://docs.google.com/document/d/1AXGd56ZddqowzAkLaPuIEjAtL5H
 - [`Sesión 04:` Black and White Box Testing](./Sesion-04)
 - [`Sesión 05:` Mockito tool](./Sesion-05)
 - [`Sesión 06:` Test Driven Development](./Sesion-06)
-- [`Sesión 07:` Nombre de la sesión 07](./Sesion-07)
-- [`Sesión 08:` Nombre de la sesión 08](./Sesion-08)
+- [`Sesión 07:` Test Quality](./Sesion-07)
+- [`Sesión 08:` SonarQube tool](./Sesion-08)
