@@ -13,7 +13,7 @@
     - [Reto 01: Pruebas con stubs](./Reto-01)
 - [Ejemplo 03: Pruebas con mocks](./Ejemplo-03)
     - [Reto 02: Pruebas con mockito](./Reto-02)
-- [Ejemplo 04: Inyección de mocks](./Ejemplo-03)
+- [Ejemplo 04: Inyección de mocks](./Ejemplo-04)
     - [Reto 03: Inyección de mocks](./Reto-03)
 - [Postwork](./Postwork)
 
