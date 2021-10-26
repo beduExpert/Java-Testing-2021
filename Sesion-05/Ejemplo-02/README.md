@@ -9,7 +9,7 @@ service_
 
 `SomeBusinessLogic.java`
 
-```
+```java
 package com.example.demo.business;
 
 public class SomeBusinessLogic {
@@ -41,7 +41,7 @@ Ahora procederemos a crear la interfaz de nuestro DataService
 
 
 `SomeDataService.java`
-```
+```java
 package com.example.demo.data;
 
 public interface SomeDataService {
@@ -70,7 +70,7 @@ de tests servicios, adicionalmente queremos que nuestros tests sean rapidos y ha
 tiempo a la ejecución, por ello crearemos un Stub de nuestro `DataService`
 
 `SomeBusinessLogicStubTest.java`
-```
+```java
 package com.example.demo.business;
 
 import com.example.demo.data.SomeDataService;
