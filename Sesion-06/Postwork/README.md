@@ -1,6 +1,6 @@
 # Postwork
 
-[Ver en Google docs](https://docs.google.com/document/d/1ULrVgm8EVgg1HT1ecIZB8RzKfWg39UG1XbEZUinQZ0Y/edit)
+Recuerda que tambien puedes consultar tu Prework en la App Bedu.
 
 ## 🎯 OBJETIVOS
 
