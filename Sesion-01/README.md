@@ -11,7 +11,7 @@
 
 ## ⚙ Requisitos
 
-+ Consultar la sección de instalación del [Prework 01](https://docs.google.com/document/d/1AXGd56ZddqowzAkLaPuIEjAtL5HMDMVb1VcNtGP7-pA/edit?usp=sharing)
+Consulta la sección de instalación en tu Prework 01 en la App Bedu
 
 
 ## 📂 Organización de la clase
