@@ -1,5 +1,19 @@
 # Ejemplo 2 - La premisa del principio de transformación
 
+## :dart: Objetivo
+
+- Analizar qué es esta técnica de programación guiada por pruebas, sus orígenes y la lógica detrás de su funcionamiento.
+- Aplicar el ciclo rojo, verde, refactorización.
+
+## ⚙ Requisitos
+
+- IntelliJ IDEA
+- Java
+- Gradle
+- JUnit
+- Code with me
+- Una cuenta de GitHub
+
 ## Desarrollo
 
 Continuando con nuestro desarrollo, ahora necesitamos probar el caso en que recibimos dos elementos pero en desorden.

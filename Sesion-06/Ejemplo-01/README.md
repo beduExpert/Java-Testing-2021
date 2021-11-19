@@ -1,5 +1,19 @@
 # Ejemplo 1 - Las tres leyes de TDD
 
+## :dart: Objetivo
+
+- Analizar qué es esta técnica de programación guiada por pruebas, sus orígenes y la lógica detrás de su funcionamiento.
+- Aplicar el ciclo rojo, verde, refactorización.
+
+## ⚙ Requisitos
+
+- IntelliJ IDEA
+- Java
+- Gradle
+- JUnit
+- Code with me
+- Una cuenta de GitHub
+
 ## Desarrollo
 
 El tío Bob describe TDD con tres reglas:

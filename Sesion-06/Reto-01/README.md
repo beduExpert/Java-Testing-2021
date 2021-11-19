@@ -1,5 +1,19 @@
 # Reto 1 - Primera transformación
 
+## :dart: Objetivo
+
+- Analizar qué es esta técnica de programación guiada por pruebas, sus orígenes y la lógica detrás de su funcionamiento.
+- Aplicar el ciclo rojo, verde, refactorización.
+
+## ⚙ Requisitos
+
+- IntelliJ IDEA
+- Java
+- Gradle
+- JUnit
+- Code with me
+- Una cuenta de GitHub
+
 ## Desarrollo
 
 Como revisamos en nuestro ejemplo 2, ciertos patrones comienzan a emerger de nuestro código. Durante este reto
@@ -23,7 +37,8 @@ Nuestra primera transformación consistirá en sustituir una condicional por un 
 Instrucciones:
 
 Remplaza las condiciones internas de la condición `else if (unSortedList.length == 3)` por un ciclo while/for, por ahora
-te puedes ocupar únicamente de los casos con entradas: 
+te puedes ocupar únicamente de los casos con entradas:
+
 - 1,2,3
 - 2,3,1
 
@@ -43,6 +58,9 @@ if (unSortedList[1] > unSortedList[2]) {
 
 <details>
   <summary>Solución</summary>
+
+1. Sustituir el código lista do anteriormente por un ciclo for que nos permita ordenar los elementos de acuerdo a si el
+   elemento actual es mayor o menor
 
 ```java
 package Sort;
