@@ -1,5 +1,17 @@
 # Ejemplo 2 - Añadir un data service
 
+## :dart: Objetivo
+
+- Generar un servicio básico que utilizaremos como base para realizar pruebas con mocks
+
+## ⚙ Requisitos
+
+- IntelliJ IDEA
+- Java
+- Gradle
+- JUnit
+- Spring boot
+
 ## Desarrollo
 
 En el mundo de las aplicaciones web es común que nuestra logica de negocio (servicio, caso de uso, etc.) obtenga la

@@ -1,5 +1,18 @@
 # Reto 1 - Pruebas con stubs
 
+## :dart: Objetivo
+
+- Generar un servicio básico que utilizaremos como base para realizar pruebas con mocks
+- Realizar pruebas utilizando stubs
+
+## ⚙ Requisitos
+
+- IntelliJ IDEA
+- Java
+- Gradle
+- JUnit
+- Spring boot
+
 ## Desarrollo
 
 En este reto desarrollaremos las pruebas para el método `calculateSumWithADataService`, debemos probar dos casos:
@@ -12,6 +25,10 @@ Tip: una propuesta de solución es utilizar dos Stubs de nuestro `DataService` p
 `SomeBusinessLogicStubTest.java`
 <details>
   <summary>Solución</summary>
+
+1. Generamos nuestros stubs de la clase `SomeDataService`
+2. Cada stub cumplirá con una función específica dependiendo del caso de uso
+3. En cada caso de prueba inyectamos nuestro stub correspondiente
 
 ```java
 package com.example.demo.business;

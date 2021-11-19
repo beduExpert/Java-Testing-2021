@@ -1,5 +1,19 @@
 # Ejemplo 3 - Pruebas con mockito
 
+## :dart: Objetivo
+
+- Realizar pruebas utilizando mocks
+- Utilizar mockito
+
+## ⚙ Requisitos
+
+- IntelliJ IDEA
+- Java
+- Gradle
+- JUnit
+- Spring boot
+- Mockito
+
 ## Desarrollo
 
 Como puedes ver realizar pruebas con stubs es sencillo y nos permite tener un amplio control sobre nuestras clases, sin

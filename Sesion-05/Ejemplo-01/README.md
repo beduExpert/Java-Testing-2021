@@ -1,5 +1,18 @@
 # Ejemplo 1 - Creación de un servicio básico y sus pruebas
 
+## :dart: Objetivo
+
+- Generar un servicio básico que utilizaremos como base para realizar pruebas con mocks
+
+## ⚙ Requisitos
+
+- IntelliJ IDEA
+- Java
+- Gradle
+- JUnit
+- Spring boot
+
+
 ## Desarrollo
 
 A continuación iniciaremos un nuevo proyecto de spring boot, para ellos iremos a https://start.spring.io/ y nuestra

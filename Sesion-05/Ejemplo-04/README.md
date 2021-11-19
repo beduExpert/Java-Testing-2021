@@ -1,5 +1,20 @@
 # Ejemplo 4 - Inyección de Mocks
 
+## :dart: Objetivo
+
+- Realizar pruebas utilizando mocks
+- Utilizar mockito
+- Analizar las características de la inversión decontrol e inyección de dependencias. 
+
+## ⚙ Requisitos
+
+- IntelliJ IDEA
+- Java
+- Gradle
+- JUnit
+- Spring boot
+- Mockito
+
 ## Desarrollo
 
 ### ¿Qué es la inversión de control?

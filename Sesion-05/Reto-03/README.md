@@ -1,9 +1,24 @@
-# Reto 3 - Inyeccion d emocks
+# Reto 3 - Inyección de mocks
+
+## :dart: Objetivo
+
+- Realizar pruebas utilizando mocks
+- Utilizar mockito
+- Analizar las características de la inversión decontrol e inyección de dependencias.
+
+## ⚙ Requisitos
+
+- IntelliJ IDEA
+- Java
+- Gradle
+- JUnit
+- Spring boot
+- Mockito
 
 ## Desarrollo
 
 En este reto desarrollaremos las pruebas para el método `calculateSumWithADataService`, en lugar de setear manualmente
-nuestros mocks, los inyectaremos tomando ventaja d elas anotaciones de mockito como lo vimos en el ejemplo anterior,
+nuestros mocks, los inyectaremos tomando ventaja de las anotaciones de mockito como lo vimos en el ejemplo anterior,
 debemos probar dos casos:
 
 - Cuando nuestro `DataService` regresa un arreglo vació
@@ -12,6 +27,8 @@ debemos probar dos casos:
 `SomeBusinessLogicMockTest.java`
 <details>
   <summary>Solución</summary>
+
+1. En este ejercicio inyectamos los mocks utilizando las anotaciones de mockito.
 
 ```java
 package com.example.demo.business;

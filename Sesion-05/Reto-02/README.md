@@ -1,5 +1,19 @@
 # Reto 1 - Pruebas con mockito
 
+## :dart: Objetivo
+
+- Realizar pruebas utilizando mocks
+- Utilizar mockito
+
+## ⚙ Requisitos
+
+- IntelliJ IDEA
+- Java
+- Gradle
+- JUnit
+- Spring boot
+- Mockito
+
 ## Desarrollo
 
 En este reto desarrollaremos las pruebas para el método `calculateSumWithADataService`, en lugar de stubs utilizaremos
@@ -11,6 +25,8 @@ mocks de mockito como lo vimos en el ejemplo anterior, debemos probar dos casos:
 `SomeBusinessLogicMockTest.java`
 <details>
   <summary>Solución</summary>
+
+1. En este ejercicio remplazamos los stubs por mocks de mockito
 
 ```java
 package com.example.demo.business;
