@@ -1,5 +1,18 @@
 # Ejemplo 3 - TestNG
 
+## :dart: Objetivos
+
+- Comparar las herramientas JUnit y TestNG
+- Identificar las características principales de TestNG
+
+## ⚙ Requisitos
+
+- IntelliJ IDEA
+- Java
+- Gradle
+- JUnit
+- TestNG
+
 ## Desarrollo
 
 ### ¿Qué es TestNG?

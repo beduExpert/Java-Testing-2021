@@ -1,5 +1,19 @@
 # Ejemplo 2 - Features de JUnit
 
+## :dart: Objetivo
+
+- Analizar algunas características de JUnit5
+
+## ⚙ Requisitos
+
+- IntelliJ IDEA
+- Java
+- Gradle
+- JUnit
+- JUnit 5
+- Code with me
+- Una cuenta de GitHub
+
 ## Desarrollo
 
 ### Ejecución condicional de las pruebas

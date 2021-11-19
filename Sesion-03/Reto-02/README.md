@@ -1,5 +1,20 @@
 # Reto 2 - Pruebas unitarias con JUnit
 
+## :dart: Objetivo
+
+- Utilizar JUnit
+- Desarrollar pruebas utilizando distintas características de JUnit
+
+## ⚙ Requisitos
+
+- IntelliJ IDEA
+- Java
+- Gradle
+- JUnit
+- JUnit 5
+- Code with me
+- Una cuenta de GitHub
+
 ## Desarrollo
 
 Utilizando como base el siguiente código de la calculadora realiza las siguientes pruebas

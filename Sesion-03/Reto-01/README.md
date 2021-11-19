@@ -1,5 +1,18 @@
-# Reto 1 - Migrar pruebas de JUnit 4 a Junit5 
+# Reto 1 - Migrar pruebas de JUnit 4 a JUnit5 
 
+## :dart: Objetivo
+
+- Realizar la migración de pruebas de JUnit 4 a JUnit 5
+
+## ⚙ Requisitos
+
+- IntelliJ IDEA
+- Java
+- Gradle
+- JUnit
+- JUnit 5
+- Code with me
+- Una cuenta de GitHub
 
 ## Desarrollo
 
@@ -66,6 +79,7 @@ public class CalculatorTest {
 <details>
   <summary>Solución</summary>
 
+1. Con los conceptos aprendidos en el work, podemos realizar los cambios correspondientes para migrar nuestras pruebas de JUnit 4 a JUnit 5
 `CalculatorTest.java`
 ```java
 class CalculatorTest {

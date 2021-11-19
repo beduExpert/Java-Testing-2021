@@ -1,5 +1,19 @@
 # Reto 3 - Pruebas con Selenium
 
+## :dart: Objetivos
+
+- Utilizar TestNG
+- Desarrolla pruebas con Selenium
+
+## ⚙ Requisitos
+
+- IntelliJ IDEA
+- Java
+- Gradle
+- JUnit
+- TestNG
+- Selenium
+
 ## Desarrollo
 
 Realizaremos pruebas sobre la siguiente página de una pregunta de stack overflow

@@ -1,5 +1,17 @@
 # Ejemplo # - Diferencias entre JUnit 4 y 5
 
+## :dart: Objetivos
+
+- Comparar las herramientas JUnit 4 y JUnit 5
+
+## ⚙ Requisitos
+
+- IntelliJ IDEA
+- Java
+- Gradle
+- JUnit 5
+
+
 ## Desarrollo
 
 ### Razones para migrar de JUnit 4 a JUnit 5
