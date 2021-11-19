@@ -1,5 +1,12 @@
 # Ejemplo #3 - Como seleccionar casos de prueba
 
+## :dart: Objetivo
+
+- Reconocer la importancia de escribir pruebas que garanticen el correcto funcionamiento de un método, por muy simple
+  que sea
+- Analizar técnicas, recomendaciones y buenas prácticas para escribir pruebas unitarias.
+
+
 
 ## Desarrollo
 

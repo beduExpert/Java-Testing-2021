@@ -1,6 +1,9 @@
 # Ejemplo #1 - Tipos de pruebas
 
+## :dart: Objetivo
 
+- Definir que es una prueba unitaria
+- Reconocer las diferencias entre distintos tipos de pruebas
 
 ## Desarrollo
 

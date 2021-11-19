@@ -1,5 +1,9 @@
 # Ejemplo #2 - Pruebas Unitarias
 
+## :dart: Objetivo
+
+- Definir que es una prueba unitaria
+- Analizar técnicas, recomendaciones y buenas prácticas para escribir pruebas unitarias.
 
 ## Desarrollo
 

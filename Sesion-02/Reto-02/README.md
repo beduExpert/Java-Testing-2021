@@ -7,7 +7,7 @@
 >
 > Los retos buscan emular un entorno real de trabajo, en los mismos habrá descripciones vagas de los requerimientos y el experto fungirá como stakeholder para clarificar dudas o añadir detalles a los requerimientos.
 
-## Objetivo
+## :dart: Objetivo
 
 La empresa ABC Technologies desea realizar un sistema que le permita automatizar algunas partes de su proceso para agendar entrevistas técnicas. 
 
@@ -17,6 +17,10 @@ El project manager ha definido como objetivo para este sprint generar un modelo 
 - Una entrevista debera contener una descripción, una fecha y tiempo específicos, duración y un estatus.
 - De los candidatos se desea almacenar la misma información que de los entrevistadores.
 
+
+## ⚙ Requisitos
+
+- Una herramienta para realizar diagramas, por ejemplo: https://app.diagrams.net/
 
 ## Desarrollo
 
@@ -33,6 +37,8 @@ El project manager ha definido como objetivo para este sprint generar un modelo 
 
 <details>
   <summary>Solución</summary>
+
+1. En nuestro diagrama de clases plasmamos los requisitos dados con los que deben cumlir nuestras clases
 
 ![diagrama de clases](https://raw.githubusercontent.com/beduExpert/Java-Testing-2021/main/Sesion-02/Reto-02/assets/resultado-sesion-2-reto-2.png)
 </details>

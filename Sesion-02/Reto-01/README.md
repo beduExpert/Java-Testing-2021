@@ -17,6 +17,15 @@ El project manager ha definido como objetivo para este sprint añadir las siguie
 - El usuario ingresará el correo electrónico del entrevistador a eliminar
 
 
+## ⚙ Requisitos
+
+- IntelliJ IDEA
+- Java
+- Gradle
+- JUnit
+- Code with me
+- Una cuenta de GitHub
+
 ## Desarrollo
 
 ### Instrucciones:
@@ -29,6 +38,8 @@ El project manager ha definido como objetivo para este sprint añadir las siguie
 
 <details>
   <summary>Solución</summary>
+
+1, En nuestro menu añadimos las opciones para modificar y eliminar un entrevistador.
 
 `Menu.java`
 ```java
@@ -157,6 +168,8 @@ public class Menu {
 }
 
 ```
+
+
 `MenuTest.java`
 ```java
 package com.test.interviewer;
@@ -368,6 +381,7 @@ public class Interviewer implements Serializable {
 
 
 ```
+1. Añadimos las pruebas correspondientes para eliminar y modificar un entrevistador.
 
 `InterviewerTest.java`
 ```java
