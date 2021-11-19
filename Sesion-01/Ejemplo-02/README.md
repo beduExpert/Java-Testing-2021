@@ -1,8 +1,17 @@
 # Ejemplo #2 - Tipos de Pruebas de Software
 
-## Objetivo
+## :dart: Objetivo
 
 * Identificar los diferentes tipos de pruebas
+
+## ⚙ Requisitos
+
+- IntelliJ IDEA
+- Java
+- Gradle
+- JUnit
+- Code with me
+- Una cuenta de GitHub
 
 ## Desarrollo
 

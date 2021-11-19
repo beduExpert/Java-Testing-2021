@@ -6,7 +6,7 @@
 >
 > Los retos buscan emular un entorno real de trabajo, en los mismos habrá descripciones vagas de los requerimientos y el experto fungirá como stakeholder para clarificar dudas o añadir detalles a los requerimientos.
 
-## Objetivo
+## :dart: Objetivo
 
 Basándonos en el Reto 1, debemos probar que el sistema desarrollado para la empresa ABC Technologies haya podido automatizar algunas partes de su proceso para agendar entrevistas técnicas.
 
@@ -17,12 +17,27 @@ El project manager ha definido como objetivo para este sprint realizar las prueb
 - Verificar que se hayan guardado los datos esperados de un entrevistador, como son: correo, nombre completo, tecnologías, entre otras.
 - Verificar que los datos vivan en memoria.
 
+## ⚙ Requisitos
+
+- IntelliJ IDEA
+- Java
+- Gradle
+- JUnit
+- Code with me
+- Una cuenta de GitHub
+
 ## Desarrollo
 
 **Instrucciones:**
+- 
 - Se deben incluir todas las pruebas de esta funcionalidad
 - Utilizando Code with me o Visual Studio Live Share trabajar de forma colaborativa
 - Hacer push de sus cambios a su repositorio
+
+<details>
+  <summary>Solución</summary>
+
+1. Realizamos las pruebas correspondientes para añadir un nuevo entrevistador y para obtener un entrevistador existente.
 
 `MenuTest.java`
 ```java
@@ -105,3 +120,5 @@ public class MenuTest {
 }
 
 ```
+
+</details>

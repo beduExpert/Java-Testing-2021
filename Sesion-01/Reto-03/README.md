@@ -6,12 +6,22 @@
 >
 > Los retos buscan emular un entorno real de trabajo, en los mismos habrá descripciones vagas de los requerimientos y el experto fungirá como stakeholder para clarificar dudas o añadir detalles a los requerimientos.
 
-## Objetivo
+## :dart: Objetivo
 
 Utilizando nuestro código del Reto 2, debemos realizar la persistencia de datos del sistema desarrollado para la empresa ABC Technologies.
 El project manager ha definido como objetivo para este sprint añadir las siguientes características a nuestro sistema actual:
 - Añadir persistencia de datos
 - Se debe poder leer y escribir los datos de los entrevistadores en archivos
+
+## ⚙ Requisitos
+
+- IntelliJ IDEA
+- Java
+- Gradle
+- JUnit
+- Code with me
+- Una cuenta de GitHub
+
 
 ## Desarrollo
 

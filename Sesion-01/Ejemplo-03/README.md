@@ -1,8 +1,18 @@
 # Ejemplo #3 - Integración continua
 
-## Objetivo
+## :dart: Objetivo
 
 * Analizar las etapas de la integración continua
+
+## ⚙ Requisitos
+
+- IntelliJ IDEA
+- Java
+- Gradle
+- JUnit
+- Code with me
+- Una cuenta de GitHub
+
 
 ## Desarrollo
 

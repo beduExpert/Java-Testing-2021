@@ -1,8 +1,18 @@
 # Ejemplo 1 - El costo de probar software
 
-## Objetivo
+## :dart: Objetivo
 
 * Identificar cuál es el verdadero costo de: probar el software y de no hacerlo
+
+## ⚙ Requisitos
+
+- IntelliJ IDEA
+- Java
+- Gradle
+- JUnit
+- Code with me
+- Una cuenta de GitHub
+
 
 ## Desarrollo
 

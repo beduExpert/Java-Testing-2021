@@ -6,7 +6,7 @@
 >
 > Los retos buscan emular un entorno real de trabajo, en los mismos habrá descripciones vagas de los requerimientos y el experto fungirá como stakeholder para clarificar dudas o añadir detalles a los requerimientos.
 
-## Objetivo
+## :dart: Objetivo
 
 La empresa ABC Technologies desea realizar un sistema que le permita automatizar algunas partes de su proceso para
 agendar entrevistas técnicas.
@@ -20,6 +20,14 @@ características:
 - La persistencia de datos no está en el alcance de este sprint, por lo que los datos serán efímeros viviendo solo en
   memoria.
 
+## ⚙ Requisitos
+
+- IntelliJ IDEA
+- Java
+- Gradle
+- Code with me
+- Una cuenta de GitHub
+
 ## Desarrollo
 
 ### Instrucciones:
@@ -32,6 +40,10 @@ características:
 
 <details>
   <summary>Solución</summary>
+
+1. En nuestro menu mostramos las opciones para dar de alta y consultar un entrevistador.
+2. En este archivo solo vive la logica del menu, dejando la logica propia del proceso de alta o consulta en nuestro
+   archivo `Interviewer.java`
 
 `Menu.java`
 
@@ -113,6 +125,9 @@ public class Menu {
     }
 }
 ```
+
+1. Nuestro método `save` se encarga de guardar el nuevo entrevistador dentro del arreglo de entrevistadores.
+2. El método `getByEmail` permite buscar entrevistadores existentes.
 
 `Interviewer.java`
 
