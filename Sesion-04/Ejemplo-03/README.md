@@ -1,5 +1,12 @@
 # Ejemplo 3 - Técnicas de caja blanca
 
+## :dart: Objetivos
+
+- Analizar qué son las pruebas de tipo white box testing
+- Comparar y distinguir las diferencias entre black box y white box testing
+- Implementar pruebas de caja blanca
+
+
 ## Desarrollo
 
 ### Prueba del camino básico (Path testing)

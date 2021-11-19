@@ -1,5 +1,12 @@
 # Ejemplo 2 - Pruebas de caja negra
 
+## :dart: Objetivo
+
+- Analizar qué son las pruebas de tipo black box testing
+- Comparar y distinguir las diferencias entre black box y white box testing
+- Implementar pruebas de caja negra
+
+
 ## Desarrollo
 
 ### Análisis de valores límite

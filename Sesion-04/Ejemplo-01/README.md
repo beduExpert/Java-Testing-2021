@@ -1,5 +1,9 @@
 # Ejemplo 1 - Técnicas de caja negra: Requerimiento funcional / Caso de uso
 
+## :dart: Objetivos
+
+- Analizar qué son las pruebas de tipo black box testing
+
 ## Desarrollo
 
 Como vimos en la sesión 2 (Testing processes in Agile) de nuestro módulo de QA Automation Testing las historias de
