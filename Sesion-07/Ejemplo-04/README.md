@@ -1,5 +1,11 @@
 # Ejemplo 3 - Otras métricas
 
+## :dart: Objetivos
+
+- Definir el concepto de calidad en software
+- Diferenciar entre testing y calidad
+- Utilizar herramienta y métricas que ayuden a definir la calidad
+
 ## Desarrollo
 
 ### Complejidad Ciclomática

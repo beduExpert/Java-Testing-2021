@@ -1,5 +1,11 @@
 # Ejemplo 3 - Indice de calidad del software
 
+## :dart: Objetivos
+
+- Definir el concepto de calidad en software
+- Diferenciar entre testing y calidad
+- Utilizar herramienta y métricas que ayuden a definir la calidad
+
 ## Desarrollo
 
 Como desarrolladores de software, la calidad del software es siempre una prioridad y muchas veces somos medidos por la

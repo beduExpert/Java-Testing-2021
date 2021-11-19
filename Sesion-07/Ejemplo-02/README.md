@@ -1,5 +1,11 @@
 # Ejemplo 2 - Las 4 métricas clave
 
+## :dart: Objetivos
+
+- Definir el concepto de calidad en software
+- Diferenciar entre testing y calidad
+- Utilizar herramienta y métricas que ayuden a definir la calidad
+
 ## Desarrollo
 
 Las cuatro métricas clave

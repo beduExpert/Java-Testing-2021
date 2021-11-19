@@ -1,5 +1,12 @@
 # Ejemplo 1 - Métricas DORA
 
+## :dart: Objetivos
+
+- Definir el concepto de calidad en software
+- Diferenciar entre testing y calidad
+- Utilizar herramienta y métricas que ayuden a definir la calidad
+
+
 ## Desarrollo
 
 ![img.png](img.png)

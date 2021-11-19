@@ -1,5 +1,11 @@
 # Reto 2 - Implementación de métricas clave II
 
+## :dart: Objetivos
+
+- Definir el concepto de calidad en software
+- Diferenciar entre testing y calidad
+- Utilizar herramienta y métricas que ayuden a definir la calidad
+
 > **💡 Nota para experto(a)**
 >
 > A lo largo de este curso los alumnos estarán trabajando en equipos de dos integrantes, por ello como primera actividad el experto definirá las parejas, en caso de ser un grupo con un número impar podría haber equipos de tres personas.
