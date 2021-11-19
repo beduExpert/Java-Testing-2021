@@ -1,5 +1,21 @@
 # Ejemplo 3 - SonaLint
 
+## :dart: Objetivos
+
+- Identificar criterios de calidad en el software
+- Analizar los criterios de análisis estático del código
+- Ejecutar un análisis estático con SonarQube
+
+
+## ⚙ Requisitos
+
+- IntelliJ IDEA
+- Java
+- Gradle
+- SonarQube
+- Docker
+- SonarLint
+
 ## Desarrollo
 
 ### Análisis en tiempo real con SonarLint

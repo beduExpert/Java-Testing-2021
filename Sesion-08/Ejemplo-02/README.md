@@ -1,5 +1,20 @@
 # Ejemplo 2 - Instalación de SonarQube
 
+## :dart: Objetivos
+
+- Identificar criterios de calidad en el software
+- Analizar los criterios de análisis estático del código
+- Ejecutar un análisis estático con SonarQube
+
+
+## ⚙ Requisitos
+
+- IntelliJ IDEA
+- Java
+- Gradle
+- SonarQube
+- Docker
+
 ## Desarrollo
 
 ### Instalación de SonarQube

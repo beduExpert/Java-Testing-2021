@@ -1,5 +1,11 @@
 # Ejemplo 1 - Introducción a SonarQube
 
+## :dart: Objetivos
+
+- Identificar criterios de calidad en el software
+- Analizar los criterios de análisis estático del código
+- Ejecutar un análisis estático con SonarQube
+
 ## Desarrollo
 
 SonarQube es una herramienta de código abierto de SonarSource (https://www.sonarsource.com/) que está escrita en Java.

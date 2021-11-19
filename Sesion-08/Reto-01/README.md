@@ -1,5 +1,20 @@
 # Reto 1 - Ejecutar SonarQube en tu proyecto
 
+## :dart: Objetivos
+
+- Identificar criterios de calidad en el software
+- Analizar los criterios de análisis estático del código
+- Ejecutar un análisis estático con SonarQube
+
+
+## ⚙ Requisitos
+
+- IntelliJ IDEA
+- Java
+- Gradle
+- SonarQube
+- Docker
+
 ## Desarrollo
 
 Ahora es tu turno de ejecutar el análisis con SonarQube en tu código.

@@ -1,5 +1,17 @@
 # Ejemplo 4 - Security test con ZAP
 
+## :dart: Objetivos
+
+- Analizar los 10 riesgos de seguridad más frecuentes en aplicaciones web (OWASP Top Ten)
+
+
+## ⚙ Requisitos
+
+- IntelliJ IDEA
+- Java
+- Gradle
+- ZAP
+
 ## Desarrollo
 
 ### Aplicación de pruebas de penetración y seguridad web con ZAP
