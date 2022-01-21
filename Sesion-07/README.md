@@ -8,6 +8,21 @@
 - Crear pruebas de calidad
 - Utilizar herramienta y métricas que ayuden a definir la calidad
 
+## ⚙ Requisitos
+
+- Editor de código
+  - IntelliJ IDEA
+- Programación colaborativa
+  - Code with me
+- Control de versiones.
+  - Git
+  - Tener una cuenta de GitHub
+- Entorno de desarrollo de Java.
+  - Java JDK 8+
+  - Gradle 7+
+- Frameworks de pruebas
+  - Junit 5.7.x
+
 
 ## 📂 Organización de la clase
 

@@ -7,6 +7,21 @@
 - Explorar la escuela Londres de TDD (de afuera hacia adentro o también conocido como mockistas)
 - Explorar la escuela Chicago de TDD (de adentro hacia afuera o también conocido como clasistas)
 
+## ⚙ Requisitos
+
+- Editor de código
+  - IntelliJ IDEA
+- Programación colaborativa
+  - Code with me
+- Control de versiones.
+  - Git
+  - Tener una cuenta de GitHub
+- Entorno de desarrollo de Java.
+  - Java JDK 8+
+  - Gradle 7+
+- Frameworks de pruebas
+  - Junit 5.7.x
+
 ## 📂 Organización de la clase
 
 - [Ejemplo 01:  Las tres reglas de TDD](./Ejemplo-01)

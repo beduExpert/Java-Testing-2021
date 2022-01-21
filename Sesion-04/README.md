@@ -8,6 +8,21 @@
 - Implementar pruebas de caja negra
 - Implementar pruebas de caja blanca
 
+## ⚙ Requisitos
+
+- Editor de código
+  - IntelliJ IDEA
+- Programación colaborativa
+  - Code with me
+- Control de versiones.
+  - Git
+  - Tener una cuenta de GitHub
+- Entorno de desarrollo de Java.
+  - Java JDK 8+
+  - Gradle 7+
+- Frameworks de pruebas
+  - Junit 5.7.x
+
 ## 📂 Organización de la clase
 
 - [Ejemplo 01:  Técnicas de caja negra: Requerimiento funcional / Caso de uso](./Ejemplo-01)

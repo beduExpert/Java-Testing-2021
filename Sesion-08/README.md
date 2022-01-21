@@ -7,6 +7,25 @@
 - Ejecutar un análisis estático con SonarQube
 - Analizar los 10 riesgos de seguridad más frecuentes en aplicaciones web (OWASP Top Ten)
 
+## ⚙ Requisitos
+
+- Editor de código
+  - IntelliJ IDEA
+- Programación colaborativa
+  - Code with me
+- Control de versiones.
+  - Git
+  - Tener una cuenta de GitHub
+- Entorno de desarrollo de Java.
+  - Java JDK 8+
+  - Gradle 7+
+- Frameworks de pruebas
+  - Junit 5.7.x
+- Otras herramientas
+  - SonarQube
+  - SonarLint
+  - ZAP
+
 ## 📂 Organización de la clase
 
 - [Ejemplo 01:  Introducción a SonarQube](./Ejemplo-01)

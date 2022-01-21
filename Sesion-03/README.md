@@ -8,7 +8,21 @@
 
 ## ⚙ Requisitos
 
-+ Completar el prework para tener instalado gradle, JUnit y TestNG
+- Editor de código
+  - IntelliJ IDEA
+- Programación colaborativa
+  - Code with me
+- Control de versiones.
+  - Git
+  - Tener una cuenta de GitHub
+- Entorno de desarrollo de Java.
+  - Java JDK 8+
+  - Gradle 7+
+- Frameworks de pruebas
+  - Junit 5.7.x
+  - TestNG 7.4.x
+  - Selenium 3.x
+
 
 ## 📂 Organización de la clase
 

@@ -6,6 +6,24 @@
 - Aplicar el patrón de diseño factory para crear entidades y modelos dinámicamente en nuestras pruebas
 - Utilizar mockito tool para generar mocks en nuestras pruebas
 
+## ⚙ Requisitos
+
+- Editor de código
+  - IntelliJ IDEA
+- Programación colaborativa
+  - Code with me
+- Control de versiones.
+  - Git
+  - Tener una cuenta de GitHub
+- Entorno de desarrollo de Java.
+  - Java JDK 8+
+  - Gradle 7+
+- Frameworks de pruebas
+  - Junit 5.7.x
+  - Mockito
+- Frameworks web
+  - Springboot
+
 ## 📂 Organización de la clase
 
 - [Ejemplo 01: Creación de un servicio básico y sus pruebas](./Ejemplo-01)
