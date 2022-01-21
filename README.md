@@ -29,8 +29,16 @@ agendar entrevistas.
 
 ## :gear: Requerimientos
 
-Consultar la sección de instalación
-del [Prework 01](https://docs.google.com/document/d/1AXGd56ZddqowzAkLaPuIEjAtL5HMDMVb1VcNtGP7-pA/edit?usp=sharing)
+- Editor de código
+  - IntelliJ IDEA
+- Programación colaborativa
+  - Code with me
+- Control de versiones.
+  - Git
+  - Tener una cuenta de GitHub
+- Entorno de desarrollo de Java. 
+  - Java JDK 8+ 
+  - Gradle 7+
 
 ## :bookmark_tabs: Sesiones
 
