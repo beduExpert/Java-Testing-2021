@@ -43,20 +43,11 @@ Siguiendo estas reglas vamos a escribir un programa que nos permita ordenar un a
 El caso más sencillo que podemos probar es para un arreglo vacío:
 
 ```java
-package Sort;
-
-import junit.framework.Assert;
-import org.junit.Test;
-
-import java.util.Arrays;
-
-public class SorterTest {
     @Test
-    public void SortEmptyList_ShouldReturnEmptyList() {
-        Assert.assertTrue(Arrays.equals(new ArrayList<Integer>(),
-                Sorter.Sort(new int[]{})));
+    public void SortEmptyList_ShouldReturnEmptyList(){
+        int[] arr = new int[] {};
+        assertArrayEquals(new int[]{}, Sorter.sort(arr));
     }
-}
 
 ```
 
@@ -72,57 +63,27 @@ práctica de TDD por las siguientes razones:
 El código minimo para pasar dichas pruebas es el siguiente
 
 ```java
-package Sort;
-
-public class Sorter {
-    public static List<Integer> Sort(int[] unSortedList) {
-        return new ArrayList<Integer>();
+public static int[] sort (int[] unsorted){
+        return new int[] {};
     }
-
-
-}
 ```
 
 El siguiente caso que probaremos es cuando tenemos un arreglo con un solo elemento
 
 ```java
-package Sort;
-
-import junit.framework.Assert;
-import org.junit.Test;
-
-import java.util.Arrays;
-
-public class SorterTest {
     @Test
-    public void SortEmptyList_ShouldReturnEmptyList() {
-        Assert.assertTrue(new ArrayList<Integer>(),
-                Sorter.Sort(new int[]{}));
+    public void oneElement(){
+        int[] arr = new int[] {1};
+        assertArrayEquals(new int[]{1}, Sorter.sort(arr));
     }
-
-  @Test
-  public void SortListWithOneElement_ShouldReturnSortedList() {
-    Assert.assertTrue(Arrays.equals(new ArrayList<Integer>(
-            Arrays.asList(1)),
-            Sorter.Sort(new int[]{1})));
-  }
-}
-
 ```
 
 A continuación tendremos que cambiar la implementación de nuestro código para pasar ambos casos de prueba
 
 ```java
-package Sort;
-
-public class Sorter {
-  public static List<Integer> Sort(int[] unSortedList) {
-    List<Integer> sorted = new ArrayList<Integer>();
-    return sorted;
-  }
-
-
-}
+public static int[] sort (int[] unsorted){
+        return unsorted;
+    }
 
 ```
 
@@ -131,34 +92,11 @@ Nuestro siguiente caso a implementar es para un arreglo con dos números
 El siguiente caso que probaremos es cuando tenemos un arreglo con un solo elemento
 
 ```java
-package Sort;
-
-import junit.framework.Assert;
-import org.junit.Test;
-
-import java.util.Arrays;
-
-public class SorterTest {
-  @Test
-  public void SortEmptyList_ShouldReturnEmptyList() {
-    Assert.assertTrue(new ArrayList<Integer>(),
-            Sorter.Sort(new int[]{}));
-  }
-
-  @Test
-  public void SortListWithOneElement_ShouldReturnSortedList() {
-    Assert.assertTrue(Arrays.equals(new ArrayList<Integer>(
-                    Arrays.asList(1)),
-            Sorter.Sort(new int[]{1})));
-  }
-
-  @Test
-  public void SortListWithTwoElementsInCorrectOrder_ShouldReturnSameList() {
-    Assert.assertTrue(Arrays.equals(new ArrayList<Integer>(
-                    Arrays.asList(1,2)),
-            Sorter.Sort(new int[]{1,2})));
-  }
-}
+@Test
+    public void twoElements(){
+        int[] arr = new int[] {1,2};
+        assertArrayEquals(new int[]{1,2}, Sorter.sort(arr));
+    }
 
 ```
 
