@@ -19,41 +19,11 @@
 Continuando con nuestro desarrollo, ahora necesitamos probar el caso en que recibimos dos elementos pero en desorden.
 
 ```java
-package Sort;
-
-import junit.framework.Assert;
-import org.junit.Test;
-
-import java.util.Arrays;
-
-public class SorterTest {
     @Test
-    public void SortEmptyList_ShouldReturnEmptyList() {
-        Assert.assertTrue(new ArrayList<Integer>(),
-                Sorter.Sort(new int[]{}));
+    public void twoElements2(){
+        int[] arr = new int[] {2,1};
+        assertArrayEquals(new int[]{1,2}, Sorter.sort(arr));
     }
-
-    @Test
-    public void SortListWithOneElement_ShouldReturnSortedList() {
-        Assert.assertTrue(Arrays.equals(new ArrayList<Integer>(
-                        Arrays.asList(1)),
-                Sorter.Sort(new int[]{1})));
-    }
-
-    @Test
-    public void SortListWithTwoElementsInCorrectOrder_ShouldReturnSameList() {
-        Assert.assertTrue(Arrays.equals(new ArrayList<Integer>(
-                        Arrays.asList(1, 2)),
-                Sorter.Sort(new int[]{1, 2})));
-    }
-
-    @Test
-    public void SortListWithTwoElementsInReverseOrder_ShouldReturnSortedList() {
-        Assert.assertTrue(Arrays.equals(new ArrayList<Integer>(
-                        Arrays.asList(2, 1)),
-                Sorter.Sort(new int[]{2, 1})));
-    }
-}
 
 ```
 
@@ -65,28 +35,18 @@ Lo que podemos ver en este caso es que cuando tenemos dos números y uno es mayo
 intercambiarlos.
 
 ```java
-package Sort;
+    public static int[] sort (int[] unsorted){
+        int[] sorted = new int[] {};
+        if(unsorted.length <= 1) return unsorted;
 
-import java.util.ArrayList;
+        if (unsorted[0] > unsorted[1]) {
+            int temp = unsorted[0];
+            unsorted[0] = unsorted[1];
+            unsorted[1] = temp;
+        } 
 
-public class Sorter {
-    public static List<Integer> Sort(int[] unSortedList) {
-        List<Integer> sorted = new ArrayList<Integer>();
-        if (unSortedList.length <= 1) {
-            return sorted;
-        }
-        if (unSortedList[0] > unSortedList[1]) {
-            sorted.add(unSortedList[1]);
-            sorted.add(unSortedList[0]);
-        } else {
-            sorted.add(unSortedList[0]);
-            sorted.add(unSortedList[1]);
-        }
-        return sorted;
+        return unsorted;
     }
-
-
-}
 ```
 
 ¿Te parece un sin sentido implementar dicho código porque solo funcionara con estos casos de prueba?
@@ -112,37 +72,33 @@ import java.util.Arrays;
 
 public class SorterTest {
     @Test
-    public void SortEmptyList_ShouldReturnEmptyList() {
-        Assert.assertTrue(new ArrayList<Integer>(),
-                Sorter.Sort(new int[]{}));
+    public void SortEmptyList_ShouldReturnEmptyList(){
+        int[] arr = new int[] {};
+        assertArrayEquals(new int[]{}, Sorter.sort(arr));
     }
 
     @Test
-    public void SortListWithOneElement_ShouldReturnSortedList() {
-        Assert.assertTrue(Arrays.equals(new ArrayList<Integer>(
-                        Arrays.asList(1)),
-                Sorter.Sort(new int[]{1})));
+    public void oneElement(){
+        int[] arr = new int[] {1};
+        assertArrayEquals(new int[]{1}, Sorter.sort(arr));
     }
 
     @Test
-    public void SortListWithTwoElementsInCorrectOrder_ShouldReturnSameList() {
-        Assert.assertTrue(Arrays.equals(new ArrayList<Integer>(
-                        Arrays.asList(1, 2)),
-                Sorter.Sort(new int[]{1, 2})));
+    public void twoElements(){
+        int[] arr = new int[] {1,2};
+        assertArrayEquals(new int[]{1,2}, Sorter.sort(arr));
     }
 
     @Test
-    public void SortListWithTwoElementsInReverseOrder_ShouldReturnSortedList() {
-        Assert.assertTrue(Arrays.equals(new ArrayList<Integer>(
-                        Arrays.asList(2, 1)),
-                Sorter.Sort(new int[]{2, 1})));
+    public void twoElements2(){
+        int[] arr = new int[] {2,1};
+        assertArrayEquals(new int[]{1,2}, Sorter.sort(arr));
     }
 
     @Test
-    public void SortListWithSameTwoElements_ShouldReturnSortedList() {
-        Assert.assertTrue(Arrays.equals(new ArrayList<Integer>(
-                        Arrays.asList(2, 2)),
-                Sorter.Sort(new int[]{2, 2})));
+    public void twoElements3(){
+        int[] arr = new int[] {2,2};
+        assertArrayEquals(new int[]{2,2}, Sorter.sort(arr));
     }
 }
 
@@ -160,44 +116,39 @@ import java.util.Arrays;
 
 public class SorterTest {
     @Test
-    public void SortEmptyList_ShouldReturnEmptyList() {
-        Assert.assertTrue(new ArrayList<Integer>(),
-                Sorter.Sort(new int[]{}));
+    public void SortEmptyList_ShouldReturnEmptyList(){
+        int[] arr = new int[] {};
+        assertArrayEquals(new int[]{}, Sorter.sort(arr));
     }
 
     @Test
-    public void SortListWithOneElement_ShouldReturnSortedList() {
-        Assert.assertTrue(Arrays.equals(new ArrayList<Integer>(
-                        Arrays.asList(1)),
-                Sorter.Sort(new int[]{1})));
+    public void oneElement(){
+        int[] arr = new int[] {1};
+        assertArrayEquals(new int[]{1}, Sorter.sort(arr));
     }
 
     @Test
-    public void SortListWithTwoElementsInCorrectOrder_ShouldReturnSameList() {
-        Assert.assertTrue(Arrays.equals(new ArrayList<Integer>(
-                        Arrays.asList(1, 2)),
-                Sorter.Sort(new int[]{1, 2})));
+    public void twoElements(){
+        int[] arr = new int[] {1,2};
+        assertArrayEquals(new int[]{1,2}, Sorter.sort(arr));
     }
 
     @Test
-    public void SortListWithTwoElementsInReverseOrder_ShouldReturnSortedList() {
-        Assert.assertTrue(Arrays.equals(new ArrayList<Integer>(
-                        Arrays.asList(2, 1)),
-                Sorter.Sort(new int[]{2, 1})));
+    public void twoElements2(){
+        int[] arr = new int[] {2,1};
+        assertArrayEquals(new int[]{1,2}, Sorter.sort(arr));
     }
 
     @Test
-    public void SortListWithSameTwoElements_ShouldReturnSortedList() {
-        Assert.assertTrue(Arrays.equals(new ArrayList<Integer>(
-                        Arrays.asList(2, 2)),
-                Sorter.Sort(new int[]{2, 2})));
+    public void twoElements3(){
+        int[] arr = new int[] {2,2};
+        assertArrayEquals(new int[]{2,2}, Sorter.sort(arr));
     }
 
     @Test
-    public void SortListWithThreeElementsInCorrectOrder_ShouldReturnSortedList() {
-        Assert.assertTrue(Arrays.equals(new ArrayList<Integer>(
-                        Arrays.asList(1, 2, 3)),
-                Sorter.Sort(new int[]{1, 2, 3})));
+    public void threeElements(){
+        int[] arr = new int[] {1,2,3};
+        assertArrayEquals(new int[]{1,2,3}, Sorter.sort(arr));
     }
 }
 
@@ -215,51 +166,45 @@ import java.util.Arrays;
 
 public class SorterTest {
     @Test
-    public void SortEmptyList_ShouldReturnEmptyList() {
-        Assert.assertTrue(new ArrayList<Integer>(),
-                Sorter.Sort(new int[]{}));
+    public void SortEmptyList_ShouldReturnEmptyList(){
+        int[] arr = new int[] {};
+        assertArrayEquals(new int[]{}, Sorter.sort(arr));
     }
 
     @Test
-    public void SortListWithOneElement_ShouldReturnSortedList() {
-        Assert.assertTrue(Arrays.equals(new ArrayList<Integer>(
-                        Arrays.asList(1)),
-                Sorter.Sort(new int[]{1})));
+    public void oneElement(){
+        int[] arr = new int[] {1};
+        assertArrayEquals(new int[]{1}, Sorter.sort(arr));
     }
 
     @Test
-    public void SortListWithTwoElementsInCorrectOrder_ShouldReturnSameList() {
-        Assert.assertTrue(Arrays.equals(new ArrayList<Integer>(
-                        Arrays.asList(1, 2)),
-                Sorter.Sort(new int[]{1, 2})));
+    public void twoElements(){
+        int[] arr = new int[] {1,2};
+        assertArrayEquals(new int[]{1,2}, Sorter.sort(arr));
     }
 
     @Test
-    public void SortListWithTwoElementsInReverseOrder_ShouldReturnSortedList() {
-        Assert.assertTrue(Arrays.equals(new ArrayList<Integer>(
-                        Arrays.asList(2, 1)),
-                Sorter.Sort(new int[]{2, 1})));
+    public void twoElements2(){
+        int[] arr = new int[] {2,1};
+        assertArrayEquals(new int[]{1,2}, Sorter.sort(arr));
     }
 
     @Test
-    public void SortListWithSameTwoElements_ShouldReturnSortedList() {
-        Assert.assertTrue(Arrays.equals(new ArrayList<Integer>(
-                        Arrays.asList(2, 2)),
-                Sorter.Sort(new int[]{2, 2})));
+    public void twoElements3(){
+        int[] arr = new int[] {2,2};
+        assertArrayEquals(new int[]{2,2}, Sorter.sort(arr));
     }
 
     @Test
-    public void SortListWithThreeElementsInCorrectOrder_ShouldReturnSortedList() {
-        Assert.assertTrue(Arrays.equals(new ArrayList<Integer>(
-                        Arrays.asList(1, 2, 3)),
-                Sorter.Sort(new int[]{1, 2, 3})));
+    public void threeElements(){
+        int[] arr = new int[] {1,2,3};
+        assertArrayEquals(new int[]{1,2,3}, Sorter.sort(arr));
     }
 
     @Test
-    public void SortListWithThreeElementsFirstTwoSwapped_ShouldReturnSortedList() {
-        Assert.assertTrue(Arrays.equals(new ArrayList<Integer>(
-                        Arrays.asList(1, 2, 3)),
-                Sorter.Sort(new int[]{2, 1, 3})));
+    public void threeElements2(){
+        int[] arr = new int[] {2,1,3};
+        assertArrayEquals(new int[]{1,2,3}, Sorter.sort(arr));
     }
 }
 
@@ -268,38 +213,32 @@ public class SorterTest {
 Continuando con este patron ahora podemos verificar el caso para la longitud de tres
 
 ```java
-package Sort;
+    public static int[] sort (int[] unsorted){
+        int[] sorted = new int[] {};
+        if(unsorted.length <= 1) return unsorted;
 
-public class Sorter {
-    public static List<Integer> Sort(int[] unSortedList) {
-        List<Integer> sorted = new ArrayList<Integer>();
-        if (unSortedList.length == 1) {
-            return sorted.add(unSortedList[0]);
-        } else if (unSortedList.length == 2) {
-            if (unSortedList[0] > unSortedList[1]) {
-                sorted.add(unSortedList[1]);
-                sorted.add(unSortedList[0]);
-            } else {
-                sorted.add(unSortedList[0]);
-                sorted.add(unSortedList[1]);
-            }
-        } else if (unSortedList.length == 3) {
-            if (unSortedList[1] > unSortedList[2]) {
-                sorted.add(unSortedList[2]);
-                sorted.add(unSortedList[0]);
-                sorted.add(unSortedList[1]);
-            } else {
-                sorted.add(unSortedList[1]);
-                sorted.add(unSortedList[0]);
-                sorted.add(unSortedList[2]);
-            }
+        if (unsorted.length == 2) {
+            if (unsorted[0] > unsorted[1]) {
+            int temp = unsorted[0];
+            unsorted[0] = unsorted[1];
+            unsorted[1] = temp;
+            } 
+
+            return unsorted;
         }
 
-        return sorted;
+        if (unsorted.length == 3) {
+            if (unsorted[0] > unsorted[1]) {
+            int temp = unsorted[0];
+            unsorted[0] = unsorted[1];
+            unsorted[1] = temp;
+            } 
+
+            return unsorted;
+        }
+        
+        return unsorted
     }
-
-
-}
 ```
 
 Si miramos con atención podremos notar que un patron ha comenzado a emerger. Son casos similares, con la principal
