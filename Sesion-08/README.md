@@ -33,7 +33,7 @@
     - [Reto 01: Ejecutar SonarQube en tu proyecto](./Reto-01)
 - [Ejemplo 03: SonarLint](./Ejemplo-03)
     - [Reto 02: Ejecutar SonarLint en tu proyecto](./Reto-02)
-- [Ejemplo 04: Security test con ZAP](./Ejemplo-04)
+<!-- - [Ejemplo 04: Security test con ZAP](./Ejemplo-04) -->
 - [Postwork](./Postwork)
 
 
